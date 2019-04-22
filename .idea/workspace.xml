@@ -2,1175 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7291d9ba-97d2-4801-b5ab-0dec3c0b3e65" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/laravel-plugin.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap-slider/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap-slider/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap-slider/bootstrap-slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap-slider/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap-slider/locks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap-slider/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/Gemfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/Gemfile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/browsers.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/bs-commonjs-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/bs-glyphicons-data-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/bs-lessdoc-parser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/bs-raw-files-generator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/change-version.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/configBridge.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/generate-sri.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/grunt/karma.conf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/affix.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/collapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/dropdown.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/modal.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/popover.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/scrollspy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/tab.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/js/transition.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/badges.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/bootstrap.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/breadcrumbs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/button-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/carousel.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/close.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/code.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/component-animations.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/dropdowns.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/glyphicons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/input-groups.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/jumbotron.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/media.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/alerts.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/background-variant.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/border-radius.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/buttons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/center-block.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/clearfix.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/forms.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/gradients.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/grid-framework.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/grid.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/hide-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/image.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/labels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/list-group.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/nav-divider.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/nav-vertical-align.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/opacity.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/progress-bar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/reset-filter.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/reset-text.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/resize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/responsive-visibility.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/size.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/tab-focus.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/table-row.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/text-emphasis.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/text-overflow.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/mixins/vendor-prefixes.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/modals.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/navbar.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/navs.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/normalize.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/pager.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/pagination.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/panels.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/popovers.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/print.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/progress-bars.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/responsive-embed.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/responsive-utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/scaffolding.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/tables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/theme.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/thumbnails.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/tooltip.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/type.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/utilities.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/less/wells.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/nuget/MyGet.ps1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/nuget/bootstrap.less.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/nuget/bootstrap.nuspec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/package.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/.npmignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/HELP-US-OUT.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/css/font-awesome.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/animated.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/bordered-pulled.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/fixed-width.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/font-awesome.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/icons.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/larger.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/list.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/mixins.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/path.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/rotated-flipped.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/screen-reader.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/stacked.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/less/variables.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_animated.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_fixed-width.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_larger.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_list.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_path.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_stacked.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/font-awesome/scss/font-awesome.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/component.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/jquery-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/jquery-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/accordion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/all.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/autocomplete.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/base.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/button.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/core.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/datepicker.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/dialog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/draggable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_444444_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_555555_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_777620_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_777777_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/menu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/progressbar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/resizable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/selectable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/selectmenu.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/sortable.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/spinner.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/tabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/base/tooltip.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_diagonals-thick_8_333333_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_flat_65_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_glass_40_111111_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_glass_55_1c1c1c_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_100_f9f9f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-hard_40_aaaaaa_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_highlight-soft_50_aaaaaa_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_45_cd0a0a_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-bg_inset-hard_55_ffeb80_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-icons_4ca300_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-icons_bbbbbb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ededed_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ffcf29_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/black-tie/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_diagonals-thick_75_f3d8d8_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_dots-small_65_a6a6a6_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_flat_0_333333_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_flat_65_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_glass_55_fbf8ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-hard_100_f6f6f6_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-bg_highlight-soft_15_cc0000_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-icons_004276_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-icons_cc0000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/blitzer/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-icons_2694e8_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-icons_3d80b3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-icons_72a7cf_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/cupertino/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_glass_40_ffc73d_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-hard_20_0972a5_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_33_003147_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_35_222222_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_44_444444_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-bg_loop_25_000000_21x21.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_4b8e0b_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_a83300_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_cccccc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dark-hive/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_diagonals-thick_15_0b3e6f_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-medium_30_0b58a2_4x4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_20_333333_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_30_a32d00_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_dots-small_40_00498f_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_flat_40_292929_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-bg_gloss-wave_20_111111_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_00498f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_98d2fb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_9ccdfc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/dot-luv/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_55_994d53_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_flat_55_fafafa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_gloss-wave_30_3d3644_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_dcd9de_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_100_eae6ea_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_25_30273a_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-bg_highlight-soft_45_5f5964_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-icons_734d99_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-icons_8d78a5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-icons_a8a3ae_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-icons_ebccce_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/eggplant/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-small_25_c5ddfc_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_20_e69700_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_22_1484e6_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_diagonals-thick_26_2293f7_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_flat_0_e69700_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_flat_0_e6b900_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_highlight-soft_100_f9f9f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-bg_inset-hard_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_0a82eb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_0b54d5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_5fa5e3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_fcdd4a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/excite-bike/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_55_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-icons_0073ea_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-icons_666666_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-icons_ff0084_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/flick/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_40_db4865_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_93c3cd_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_50_ff3853_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_diagonals-small_75_ccd232_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-medium_80_ffff38_4x4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_dots-small_35_35414f_2x2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_flat_75_ba9217_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-bg_white-lines_85_f7f7ba_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_88a206_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_c02669_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_e1e463_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_ffeb33_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/hot-sneaks/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_100_f5f0e5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_25_cb842e_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_glass_70_ede4d4_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_100_f4f0ec_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_highlight-hard_75_f5f5b5_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-bg_inset-soft_100_f4f0ec_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-icons_c47a23_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-icons_cb672b_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-icons_f08000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-icons_f35f07_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-icons_ff7519_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/humanity/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-small_0_aaaaaa_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_15_444444_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_diagonals-thick_95_ffdc2e_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_glass_55_fbf5d0_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-hard_30_285c00_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_33_3a8104_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_50_4eb305_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_highlight-soft_60_4ca20b_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-bg_inset-soft_10_285c00_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-icons_4eb305_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-icons_72b42d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/le-frog/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_glass_15_5f391b_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_20_1c160d_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_25_453326_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_gloss-wave_30_44372c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_201913_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_highlight-soft_20_619226_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-bg_inset-soft_10_201913_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_9bcc60_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_add978_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_e3ddc9_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_f1fd86_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/mint-choc/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_0_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_55_c0402a_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_flat_55_eeeeee_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_100_f8f8f8_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_35_dddddd_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_glass_60_eeeeee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_inset-hard_75_999999_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-bg_inset-soft_50_c9c9c9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-icons_3383bb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-icons_70b2e1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-icons_999999_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/images/ui-icons_fbc856_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/overcast/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_20_6e4f1c_10x10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_diagonal-maze_40_000000_10x10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_eceadf_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_10_f8f7f6_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_eceadf_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_f7f3de_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_15_ffffff_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_65_654b24_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-bg_fine-grain_68_b83400_60x60.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_3572ac_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_8c291d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_b83400_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_fbdb93_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/pepper-grinder/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_flat_55_fbec88_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_75_d0e5f5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_85_dfeffc_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_gloss-wave_55_5c9ccc_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_f5f8f9_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-icons_217bc0_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-icons_469bdd_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-icons_6da8d5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/images/ui-icons_f9bd01_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/redmond/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_flat_75_ffffff_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_75_dadada_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-icons_2e83ff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-icons_454545_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-icons_888888_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/smoothness/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_glass_55_fcf0ba_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_gloss-wave_100_ece8da_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_f5f3e5_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_100_fafaf4_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_15_459e00_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-hard_95_cccccc_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_25_67b021_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_highlight-soft_95_ffedad_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-bg_inset-soft_15_2b2922_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-icons_808080_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-icons_847e71_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-icons_8DC262_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-icons_eeeeee_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/south-street/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_flat_55_999999_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_flat_75_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_glass_45_0078ae_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_glass_55_f8da4e_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_glass_75_79c9ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_45_e14f1c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_50_6eac2c_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_gloss-wave_75_2191c0_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-bg_inset-hard_100_fcfdfd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-icons_0078ae_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-icons_056b93_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-icons_d8e7f3_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-icons_e0fdff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-icons_f5e175_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-icons_f7a50d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/images/ui-icons_fcd113_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/start/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_diagonals-medium_20_d34d17_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_45_817865_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_60_fece2f_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_70_ffdd57_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_gloss-wave_90_fff9e5_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_highlight-soft_100_feeebd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-bg_inset-soft_30_ffffff_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-icons_3d3d3d_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-icons_bd7b00_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-icons_d19405_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-icons_eb990f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-icons_ed9f26_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-icons_fadc7a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/images/ui-icons_ffe180_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/sunny/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_10_4f4221_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_20_372806_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_675423_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_25_d5ac5d_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_261803_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_diamond_8_443113_10x8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_flat_75_ddd4b0_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-bg_highlight-hard_65_fee4bd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_070603_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_e8e2b5_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_e9cd86_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_efec9f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_f2ec64_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_f9f2bd_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/images/ui-icons_ff7519_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/swanky-purse/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_diagonals-small_50_262626_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_flat_0_303030_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_flat_0_4c4c4c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_40_0a0a0a_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_55_f1fbe5_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_glass_60_000000_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_55_000000_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_85_9fda58_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-bg_gloss-wave_95_f6ecd5_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-icons_000000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-icons_1f1f1f_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-icons_9fda58_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-icons_b8ec79_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/trontastic/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_flat_30_cccccc_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_flat_50_5c5c5c_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_20_555555_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_0078a3_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_glass_40_ffc73d_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_gloss-wave_25_333333_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_highlight-soft_80_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_25_000000_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-bg_inset-soft_30_f58400_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_4b8e0b_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_a83300_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_cccccc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-darkness/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_flat_10_000000_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_222222_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_228ef1_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ef8c08_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ffd27a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/images/ui-icons_ffffff_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/ui-lightness/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/animated-overlay.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_flat_0_aaaaaa_40x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_glass_95_fef1ec_1x400.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_gloss-wave_16_121212_500x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-hard_15_888888_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-hard_55_555555_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-soft_35_adadad_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_highlight-soft_60_dddddd_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-bg_inset-soft_15_121212_1x100.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-icons_666666_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-icons_aaaaaa_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-icons_bbbbbb_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-icons_c98000_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-icons_cccccc_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-icons_cd0a0a_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/images/ui-icons_f29a00_256x240.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/jquery-ui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/jquery-ui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/themes/vader/theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/accordion.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/autocomplete.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/datepicker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/dialog.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/draggable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/droppable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-blind.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-bounce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-clip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-drop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-explode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-fade.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-fold.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-puff.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-pulsate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-scale.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-shake.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-size.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-slide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect-transfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/effect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-af.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ar-DZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-az.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-be.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-bg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-bs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ca.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-cs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-cy-GB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-da.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-de.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-el.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-en-AU.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-en-GB.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-en-NZ.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-eo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-es.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-et.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-eu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-fa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-fi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-fo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-fr-CA.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-fr-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-fr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-gl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-he.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-hi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-hr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-hu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-hy.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-id.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-is.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-it-CH.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-it.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ja.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ka.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-kk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-km.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ko.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ky.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-lb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-lt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-lv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-mk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ml.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-nb.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-nl-BE.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-nl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-nn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-no.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-pl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-pt-BR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-pt.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-rm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ro.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ru.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-sk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-sl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-sq.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-sr-SR.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-sr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-sv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-ta.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-th.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-tj.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-tr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-uk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-vi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-zh-CN.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-zh-HK.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/i18n/datepicker-zh-TW.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/menu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/accordion.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/autocomplete.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/button.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/core.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/datepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/dialog.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/draggable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/droppable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-blind.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-bounce.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-clip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-drop.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-explode.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-fade.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-fold.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-highlight.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-puff.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-pulsate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-scale.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-shake.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-size.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-slide.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect-transfer.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/effect.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-af.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ar-DZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-az.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-be.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-bg.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-bs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ca.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-cs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-cy-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-da.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-de.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-el.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-AU.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-GB.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-en-NZ.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-eo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-es.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-et.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-eu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-fa.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-fi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-fo.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr-CA.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-fr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-gl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-he.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-hi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-hr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-hu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-hy.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-id.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-is.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-it-CH.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-it.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ja.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ka.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-kk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-km.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ko.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ky.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-lb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-lt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-lv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-mk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ml.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ms.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-nb.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-nl-BE.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-nl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-nn.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-no.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-pl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-pt-BR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-pt.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-rm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ro.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ru.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-sk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-sl.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-sq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-sr-SR.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-sr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-sv.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-ta.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-th.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-tj.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-tr.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-uk.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-vi.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-CN.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-HK.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/i18n/datepicker-zh-TW.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/menu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/mouse.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/position.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/progressbar.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/resizable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/selectable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/selectmenu.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/slider.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/sortable.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/spinner.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/tabs.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/tooltip.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/minified/widget.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/mouse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/position.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/progressbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/resizable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/selectable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/selectmenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/sortable.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/spinner.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/tabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery-ui/ui/widget.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/AUTHORS.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/dist/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/dist/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/dist/jquery.slim.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/dist/jquery.slim.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/dist/jquery.slim.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/external/sizzle/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/external/sizzle/dist/sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/external/sizzle/dist/sizzle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/external/sizzle/dist/sizzle.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/jsonp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/load.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/parseXML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/var/location.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/var/nonce.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/var/rquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/ajax/xhr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/attributes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/attributes/attr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/attributes/classes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/attributes/prop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/attributes/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/attributes/val.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/callbacks.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/DOMEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/access.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/camelCase.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/init.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/nodeName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/parseHTML.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/ready-no-deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/ready.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/readyException.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/stripAndCollapse.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/toType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/core/var/rsingleTag.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/addGetHookIf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/adjustCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/curCSS.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/hiddenVisibleSelectors.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/showHide.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/var/cssExpand.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/var/getStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/var/isHiddenWithinTree.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/var/rboxStyle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/var/rnumnonpx.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/css/var/swap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/data/Data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/data/var/acceptData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/data/var/dataPriv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/data/var/dataUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/deferred.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/deferred/exceptionHook.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/deprecated.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/dimensions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/effects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/effects/Tween.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/effects/animatedSelector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/event.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/event/ajax.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/event/alias.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/event/focusin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/event/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/event/trigger.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/exports/amd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/exports/global.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/_evalUrl.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/buildFragment.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/getAll.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/setGlobalEval.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/var/rcheckableType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/var/rscriptType.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/var/rtagName.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/manipulation/wrapMap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/offset.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/queue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/queue/delay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/selector-native.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/selector-sizzle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/selector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/serialize.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/traversing.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/traversing/findFilter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/traversing/var/dir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/traversing/var/rneedsContext.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/traversing/var/siblings.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/ObjectFunctionString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/arr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/class2type.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/concat.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/document.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/documentElement.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/fnToString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/getProto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/hasOwn.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/indexOf.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/isFunction.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/isWindow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/pnum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/push.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/rcssNum.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/rnothtmlwhite.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/slice.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/var/toString.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/jquery/src/wrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/.bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/bower.travis.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/_template.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/area-as-line.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/bar-colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/bar-no-axes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/days.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/decimal-custom-hover.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/diagonal-xlabels-bar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/diagonal-xlabels.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/donut-colors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/donut-formatter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/donut.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/dst.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/goals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/lib/example.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/lib/example.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/months-no-smooth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/negative.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/no-grid.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/non-continuous.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/non-date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/quarters.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/resize.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/stacked_bars.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/timestamps.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/updating.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/weeks.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/examples/years.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/less/morris.core.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/lib/morris.area.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/lib/morris.bar.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/lib/morris.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/lib/morris.donut.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/lib/morris.grid.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/lib/morris.hover.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/lib/morris.line.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/morris.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/morris.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/area/area_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/bar/bar_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/bar/colours.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/commas_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/donut/donut_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/grid/auto_grid_lines_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/grid/set_data_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/grid/y_label_format_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/hover_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/label_series_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/line/line_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/pad_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/lib/parse_time_spec.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/specs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/support/placeholder.coffee" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/viz/examples.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/viz/exemplary/area0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/viz/exemplary/bar0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/viz/exemplary/line0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/viz/exemplary/stacked_bar0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/viz/run.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/bower_components/morris.js/spec/viz/visual_specs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/AdminLTE-rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/AdminLTE.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/AdminLTE.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/adminlte.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/adminlte.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/font-awesome-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/_all-skins-rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/_all-skins.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/_all-skins.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-black-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-black-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-black.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-black.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-blue-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-blue-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-blue.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-blue.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-green-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-green-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-purple-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-purple-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-purple.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-purple.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-red-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-red-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-red.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-red.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-yellow-light.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-yellow-light.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-yellow.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/css/skins/skin-yellow.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/avatar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/avatar04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/avatar2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/avatar3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/avatar5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/credit/american-express.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/credit/cirrus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/credit/mastercard.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/credit/mestro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/credit/paypal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/credit/paypal2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/credit/visa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/default-50x50.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/photo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/photo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/photo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/photo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user1-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user2-160x160.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user3-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user4-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user5-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user6-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user7-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/img/user8-128x128.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/js/adminlte.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/AdminLTE/dist/js/adminlte.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/site.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/site.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/_aside.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/_footer.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/_header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/_navbar.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/dashboard/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/LaraRest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LaraRest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laratrust_seeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laratrust_seeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/dashboard/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dashboard/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1181,55 +23,50 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/_header.blade.php">
+        <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="65" selection-start-line="1" selection-start-column="65" selection-end-line="1" selection-end-column="65" />
+            <state relative-caret-position="308">
+              <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/_navbar.blade.php">
+        <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-              <folding>
-                <element signature="n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-                <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-                <element signature="n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-                <element signature="n#li#2;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="61">
+              <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/AdminLTE/dist/css/AdminLTE-rtl.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="38" column="119" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/dashboard/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="308">
+              <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -1246,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/laravellocalization.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
+            <state relative-caret-position="6622">
               <caret line="301" column="38" selection-start-line="301" selection-start-column="38" selection-end-line="301" selection-end-column="38" />
             </state>
           </provider>
@@ -1264,6 +101,7 @@
       <find>Main</find>
       <find>font-famil</find>
       <find>'ar</find>
+      <find>fire(</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1286,11 +124,18 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php" />
         <option value="$PROJECT_DIR$/config/laravellocalization.php" />
         <option value="$PROJECT_DIR$/app/Http/Kernel.php" />
-        <option value="$PROJECT_DIR$/routes/dashboard/web.php" />
         <option value="$PROJECT_DIR$/resources/views/dashboard/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/dashboard/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/dashboard/_navbar.blade.php" />
         <option value="$PROJECT_DIR$/public/AdminLTE/dist/css/AdminLTE-rtl.css" />
+        <option value="$PROJECT_DIR$/config/laratrust_seeder.php" />
+        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
+        <option value="$PROJECT_DIR$/database/seeds/LaratrustSeeder.php" />
+        <option value="$PROJECT_DIR$/vendor/santigarcor/laratrust/src/Traits/LaratrustHasEvents.php" />
+        <option value="$PROJECT_DIR$/database/seeds/UsersTableSeeder.php" />
+        <option value="$PROJECT_DIR$/routes/dashboard/web.php" />
       </list>
     </option>
   </component>
@@ -1377,6 +222,8 @@
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/mcamara/laravel-localization" />
+      <path value="$PROJECT_DIR$/vendor/kkszymanowski/traitor" />
+      <path value="$PROJECT_DIR$/vendor/santigarcor/laratrust" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -1409,6 +256,29 @@
               <item name="LaraRest" type="b2602c69:ProjectViewProjectNode" />
               <item name="LaraRest" type="462c0819:PsiDirectoryNode" />
               <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaraRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaraRest" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaraRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaraRest" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaraRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaraRest" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LaraRest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LaraRest" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="seeds" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LaraRest" type="b2602c69:ProjectViewProjectNode" />
@@ -1457,19 +327,19 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/public/AdminLTE/dist/css" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/AdminLTE/dist/js" />
+      <recent name="$PROJECT_DIR$/resources/views/layouts/dashboard" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/AdminLTE/dist/css" />
       <recent name="$PROJECT_DIR$/resources/lang/en" />
       <recent name="$PROJECT_DIR$/resources/lang" />
       <recent name="$PROJECT_DIR$/public/AdminLTE/dist/css/skins" />
       <recent name="$PROJECT_DIR$/public/AdminLTE/bower_components/bootstrap/dist/css" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/AdminLTE/dist/js" />
-      <recent name="$PROJECT_DIR$/resources/views/layouts/dashboard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1507,18 +377,18 @@
       <workItem from="1555715695972" duration="4129000" />
       <workItem from="1555729973848" duration="116000" />
       <workItem from="1555730133837" duration="12462000" />
-      <workItem from="1555756454691" duration="1318000" />
+      <workItem from="1555756454691" duration="1993000" />
+      <workItem from="1555891266738" duration="7063000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20979000" />
+    <option name="totallyTimeSpent" value="28717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="6" width="1368" height="763" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19410875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1971299" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -1530,14 +400,14 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32857144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32930514" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19108762" />
@@ -1651,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/laravellocalization.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="301" column="38" selection-start-line="301" selection-start-column="38" selection-end-line="301" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
@@ -1665,24 +528,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php">
+    <entry file="file://$PROJECT_DIR$/public/AdminLTE/dist/css/AdminLTE-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dashboard/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/index.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-1870">
+          <caret line="38" column="119" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
         </state>
       </provider>
     </entry>
@@ -1693,23 +542,112 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/dashboard/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/laravellocalization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6622">
+          <caret line="301" column="38" selection-start-line="301" selection-start-column="38" selection-end-line="301" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/restaurant.sqlite">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_22_002940_laratrust_setup_tables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/laratrust.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4053" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/helpers.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="272" column="13" selection-start-line="272" selection-start-column="13" selection-end-line="272" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/santigarcor/laratrust/src/Traits/LaratrustHasEvents.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="50" column="44" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="32" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/laratrust_seeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/dashboard/_navbar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="58" column="62" selection-start-line="58" selection-start-column="62" selection-end-line="58" selection-end-column="62" />
-          <folding>
-            <element signature="n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-            <element signature="n#ul#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-            <element signature="n#ul#0;n#li#1;n#ul#0;n#li#0;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-            <element signature="n#li#2;n#ul#0;n#div#0;n#nav#0;n#header#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/AdminLTE/dist/css/AdminLTE-rtl.css">
+    <entry file="file://$PROJECT_DIR$/database/seeds/LaratrustSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="38" column="119" selection-start-line="38" selection-start-column="119" selection-end-line="38" selection-end-column="119" />
+        <state relative-caret-position="399">
+          <caret line="42" column="56" lean-forward="true" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/UserFactory.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/seeds/UsersTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/dashboard/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" column="3" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
         </state>
       </provider>
     </entry>

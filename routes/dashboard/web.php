@@ -10,5 +10,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         })->name('index');
     });
 
+
+
 });
 
