@@ -1,4 +1,4 @@
-    </div>
+ </div>
     <!-- ./wrapper -->
     <div class="wrapper">
        <footer class="main-footer">
@@ -24,6 +24,24 @@
 
           <!-- AdminLTE App -->
           <script src="{{asset('AdminLTE')}}/dist/js/adminlte.min.js"></script>
+
+           <script src="{{ asset('AdminLTE/dist/js/custom.js') }}"></script>
+
+           <script>
+           @if(session()->has('alertMessage'))
+               var n = new Noty({
+                    text: "{{ session()->get('alertMessage') }}",
+                    type: "{{ session()->get('alertType') }}",
+                    killer: true,
+                    timeout: 2000,
+                    theme: 'metroui'
+                });
+
+                n.show();
+           @endif
+           </script>
+
+           @yield('scripts')
       </footer>
     </div>
 

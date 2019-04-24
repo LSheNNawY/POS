@@ -6,6 +6,7 @@
   @include('layouts.dashboard._aside')
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
+  @include('partials._errors')
   @yield('content')
   </div>
   <!-- /.content-wrapper -->
