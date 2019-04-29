@@ -61,13 +61,6 @@
                     </li>
                 @endforeach
             </ul>
-{{--            <ul class="dropdown-menu">--}}
-{{--              <li class="header">You have 9 tasks</li>--}}
-{{--              <li>--}}
-{{--              <li class="footer">--}}
-{{--                <a href="#">View all tasks</a>--}}
-{{--              </li>--}}
-{{--            </ul>--}}
           </li>
 
 
@@ -75,7 +68,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="{{asset('AdminLTE')}}/dist/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">{{ auth()->user()->first_name . ' ' . auth()->user()->last_name}}</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -83,32 +76,17 @@
                 <img src="{{asset('AdminLTE')}}/dist/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  {{ auth()->user()->first_name . ' ' . auth()->user()->last_name}}
+                  <small>{{ Carbon\Carbon::parse(auth()->user()->created_at)->diffForHumans() }}</small>
                 </p>
-              </li>
-              <!-- Menu Body -->
-              <li class="user-body">
-                <div class="row">
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Followers</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Sales</a>
-                  </div>
-                  <div class="col-xs-4 text-center">
-                    <a href="#">Friends</a>
-                  </div>
-                </div>
-                <!-- /.row -->
               </li>
               <!-- Menu Footer-->
               <li class="user-footer">
-                <div class="pull-left">
-                  <a href="#" class="btn btn-default btn-flat">Profile</a>
-                </div>
-                <div class="pull-right">
-                  <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                <div>
+                  <a href="#" class="btn btn-default btn-flat" onclick="event.preventDefault();document.getElementById('logoutForm').submit();">@lang('site.sign_out')</a>
+                  <form action="/logout" method="post" style="display: none;" id="logoutForm">
+                    @csrf
+                  </form>
                 </div>
               </li>
             </ul>

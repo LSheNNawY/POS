@@ -45,8 +45,32 @@
                       <label for="password">@lang('site.password')</label>
                       <input type="password" class="form-control" id="password"  name="password" placeholder="@lang('site.password')" required>
                     </div>
-                </div>
-              <!-- /.box-body -->
+
+                    @php
+                    $models = ['users', 'categories', 'dishes'];
+                    $permissions = ['create', 'read', 'update', 'delete'];
+                    @endphp
+
+                    <div class="form-group">
+                        <!-- Custom Tabs -->
+                        <div class="nav-tabs-custom">
+                            <ul class="nav nav-tabs">
+                                @foreach($models as $index=>$model)
+                                <li class="{{ $index == 0? 'active' : '' }}"><a href="#{{ $model }}" data-toggle="tab">@lang('site.'.$model)</a></li>
+                                @endforeach
+                            </ul>
+                            <div class="tab-content">
+                                @foreach($models as $index=>$model)
+                                    <div class="tab-pane {{ $index == 0? 'active' : '' }}" id="{{ $model }}">
+                                        @foreach($permissions as $index=>$permission)
+                                            <label style="display: inline-block; margin:0 5px;"><input style="display: inline-block ;margin:0 2px" type="checkbox" name="permissions[]" value="{{ $permission.'_'.$model }}">@lang('site.'.$permission)</label>
+                                        @endforeach
+                                    </div>
+                                @endforeach
+                            </div><!-- /.tab-content -->
+                        </div><!-- nav-tabs-custom -->
+                    </div> <!-- end of .form-group -->
+                </div><!-- /.box-body -->
 
               <div class="box-footer">
                 <button type="submit" class="btn btn-primary">@lang('site.add')</button>

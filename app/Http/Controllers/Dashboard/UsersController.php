@@ -11,17 +11,30 @@ class UsersController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware(['permission:read_users'])->only('index');
+        $this->middleware(['permission:create_users'])->only('create');
+        $this->middleware(['permission:update_users'])->only('edit');
     }
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
         $title = __('site.users');
-        $users = User::paginate(10);
+
+        /**
+         * first get all admins (has role admin)
+         * then on this result, when request has a search value perform search
+         */
+        $users = User::whereRoleIs('admin')->where(function ($q) use ($request) {
+            $q->when($request->search, function ($query) use ($request) {
+                $query->where('first_name', 'like', '%'. $request->search . '%')
+                      ->orWhere('last_name', 'like', '%' . $request->search . '%');
+            });
+
+        })->paginate(5);
         return view('dashboard.users.index', compact('title', 'users'));
     }
 
@@ -44,27 +57,37 @@ class UsersController extends Controller
      */
     public function store(Request $request)
     {
-
         // validating
-        $validated = $request->validate([
+        $request->validate([
                 'first_name'    => 'required|string|min:3|max:12',
                 'last_name'     => 'required|string|min:3|max:12',
                 'email'         => 'required|email|unique:users',
                 'password'      => 'required|min:6|max:20'
         ]);
 
+        $validated = $request->except(['password', 'permissions']);
+
+        // hashing password
+        $validated['password'] = bcrypt($request->password);
+
         // saving
-        $user = User::create($request->except(['_token']));
+        $user = User::create($validated);
+
+        // adding admin role
+        $user->attachRole('admin');
+
+        // appending permissions
+        $user->syncPermissions($request->permissions);
 
         // checking
         if ($user) {
-            return redirect(route('dashboard.users.index'))->with([
+            return redirect()->route('dashboard.users.index')->with([
                 'alertMessage'  => __('site.success_adding'),
                 'alertType'     => 'success'
             ]);
         }
 
-        return redirect(route('dashboard.users.index'))->with([
+        return redirect()->route('dashboard.users.index')->with([
             'alertMessage'  => __('site.error_adding'),
             'alertType'     => 'error'
         ]);
@@ -96,18 +119,24 @@ class UsersController extends Controller
         $user = User::find($id);
 
         // validation
-        $request->validate([
+        $validated = $request->validate([
             'first_name'    => 'required|string|min:3|max:12',
             'last_name'     => 'required|string|min:3|max:12',
             'email'         => 'required|email|unique:users,email'.$id,
             'password'      => 'sometimes|nullable|min:6'
         ]);
 
+
         // update
-        if ($request->password == '')
+        if ($request->password == '') {
             $updated = $user->update($request->except(['_token', '_method', 'password']));
-        else
-            $updated = $user->update($request->except(['_token', '_method']));
+        }else {
+            $validated['password'] = bcrypt($validated['password']);
+            $updated = $user->update($validated);
+        }
+
+        // syncronizing permissions
+        $user->syncPermissions($request->permissions);
 
         // check if updated successfully
         if ($updated)
@@ -116,13 +145,11 @@ class UsersController extends Controller
                 'alertType'     => 'success'
             ]);
 
-        else
-            return redirect(route('dashboard.users.index'))->with([
-                'alertMessage'  => 'site.error_adding',
-                'alertType'     => 'error'
-            ]);
-
-
+        //  otherwise
+        return redirect(route('dashboard.users.index'))->with([
+            'alertMessage'  => __('site.error_adding'),
+            'alertType'     => 'error'
+        ]);
 
     }
 

@@ -7,7 +7,7 @@ return [
     'main_navigation'           => 'الموجة الرئيسى',
     'search'                    => 'بحث',
     'online'                    => 'متصل',
-    'users'                     => 'الأعضاء',
+    'users'                     => 'المشرفين',
     'first_name'                => 'الأسم الأول',
     'last_name'                 => 'الأسم الأخير',
     'email'                     => 'البريد الالكتروني',
@@ -16,13 +16,14 @@ return [
     'no_data'                   => 'عفوا, لا يوجد بيانات',
     'add'                       => 'اضافة',
     'update'                    => 'تعديل',
+    'create'                    => 'اضافة',
+    'read'                      => 'قراءة',
     'delete'                    =>  'حذف',
     'cancel'                    => 'الغاء',
     'success_adding'            => 'تمت الاضافة بنجاح',
     'success_updating'          => 'تم التعديل بنجاح',
     'success_deleting'          => 'تم الحذف بنجاح',
     'error_adding'              => 'خطا, حاول مرة أخري',
-    'delete_confirm_msg'        => 'هل تريد الحذف؟'
-
-
+    'delete_confirm_msg'        => 'هل تريد الحذف؟',
+    'sign_out'                  => 'تسجيل الخروج'
 ];

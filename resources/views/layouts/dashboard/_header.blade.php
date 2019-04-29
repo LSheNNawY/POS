@@ -11,34 +11,33 @@
     <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/font-awesome/css/font-awesome.min.css">
-@if(app()->getLocale() == 'ar')
-    <!-- font awesome rtl -->
-        <link rel="stylesheet" href="{{asset('AdminLTE')}}/dist/css/font-awesome-rtl.min.css'">
+    @if(app()->getLocale() == 'ar')
         <!-- Cairo font -->
         <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700" rel="stylesheet">
+        <!-- font awesome rtl -->
+        <link rel="stylesheet" href="{{asset('AdminLTE')}}/dist/css/font-awesome-rtl.min.css">
         <!-- bootstrap rtl -->
         <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/bootstrap/dist/css/bootstrap-rtl.min.css">
         <!-- Theme style -->
         <link rel="stylesheet" href="{{asset('AdminLTE')}}/dist/css/AdminLTE-rtl.css">
         <!-- AdminLTE Skins. Choose a skin from the css/skins -->
         <link rel="stylesheet" href="{{asset('AdminLTE')}}/dist/css/skins/_all-skins-rtl.min.css">
-@else
+    @else
     <!-- Google Font -->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
         <!-- Theme style -->
         <link rel="stylesheet" href="{{asset('AdminLTE')}}/dist/css/AdminLTE.min.css">
         <!-- AdminLTE Skins. Choose a skin from the css/skins -->
         <link rel="stylesheet" href="{{asset('AdminLTE')}}/dist/css/skins/_all-skins.min.css">
-@endif
+    @endif
 <!-- notyjs -->
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/bower_components/notyjs/noty.css">
 
     <!-- Morris chart -->
-{{--  <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/morris.js/morris.css">--}}
+    {{--  <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/morris.js/morris.css">--}}
 
-<!-- notyjs -->
+    <!-- notyjs -->
     <script src="{{ asset('AdminLTE') }}/bower_components/notyjs/noty.js"></script>
-{{--    <script src="{{ asset('AdminLTE/dist/js/custom.js') }}"></script>--}}
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
