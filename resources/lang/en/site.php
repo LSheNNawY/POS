@@ -14,6 +14,7 @@ return [
     'password'                  => 'Password',
     'action'                    => 'Action',
     'no_data'                   => 'Sorry, no data found!',
+    'permissions'               => 'Permissions',
     'add'                       => 'Add',
     'update'                    => 'Update',
     'delete'                    => 'Delete',
@@ -25,5 +26,11 @@ return [
     'success_deleting'          => 'Successful deleting',
     'error_adding'              => 'Error, try again!',
     'delete_confirm_msg'        => 'Do you want to delete?',
-    'sign_out'                  => 'Sign out'
+    'sign_out'                  => 'Sign out',
+    'user_image'                => 'User image',
+    'login'                     => 'Login',
+    'register'                  => 'Register',
+    'forgot_password'           => 'Forgot your password?',
+    'remember_me'               => 'ٌRemember Me',
+    'sign_to_start'             => 'Sign in to start your session'
 ];

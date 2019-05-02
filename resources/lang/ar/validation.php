@@ -67,7 +67,7 @@ return [
     'numeric' => 'يجب على :attribute أن يكون رقمًا',
     'present' => 'يجب تقديم :attribute',
     'regex' => 'صيغة :attribute .غير صحيحة',
-    'required' => ':attribute مطلوب.',
+    'required' => ':attribute مطلوب/ة.',
     'required_if' => ':attribute مطلوب في حال ما إذا كان :other يساوي :value.',
     'required_unless' => ':attribute مطلوب في حال ما لم يكن :other يساوي :values.',
     'required_with' => ':attribute مطلوب إذا توفّر :values.',
@@ -145,5 +145,6 @@ return [
         'time' => 'الوقت',
         'available' => 'مُتاح',
         'size' => 'الحجم',
+        'permissions'   => 'الصلاحيات'
     ],
 ];

@@ -174,6 +174,7 @@ return [
         'time' => 'Time',
         'available' => 'Available',
         'size' => 'Size',
+        'permissions'   => 'Permissions'
     ],
 
 ];

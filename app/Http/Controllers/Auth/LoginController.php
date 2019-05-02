@@ -44,4 +44,10 @@ class LoginController extends Controller
         else
             return $this->redirectTo;
     }
+
+    public function showLoginForm()
+    {   
+        $title = __('site.login');
+        return view('dashboard.login', compact('title'));
+    }
 }

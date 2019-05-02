@@ -5,6 +5,9 @@ namespace App\Http\Controllers\Dashboard;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\UsersRequest;
+use Storage;
+use Image;
 
 
 class UsersController extends Controller
@@ -55,20 +58,23 @@ class UsersController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UsersRequest $request)
     {
-        // validating
-        $request->validate([
-                'first_name'    => 'required|string|min:3|max:12',
-                'last_name'     => 'required|string|min:3|max:12',
-                'email'         => 'required|email|unique:users',
-                'password'      => 'required|min:6|max:20'
-        ]);
-
-        $validated = $request->except(['password', 'permissions']);
+        $validated = $request->except(['password', 'permissions', 'image']);
 
         // hashing password
         $validated['password'] = bcrypt($request->password);
+
+        // image manipulation and upload
+        if ($request->image) {
+            Image::make($request->image)
+                ->resize(150, null, function($constraint) {
+                    $constraint->aspectRatio();
+            })
+            ->save(public_path('uploads/users/' . $request->image->hashName()));
+
+            $validated['image'] = $request->image->hashName();
+        }
 
         // saving
         $user = User::create($validated);
@@ -103,8 +109,11 @@ class UsersController extends Controller
     {
         $title = __('site.update');
         $user = User::find($id);
-
-        return view('dashboard.users.edit', compact('title', 'user'));
+        // check if user exists
+        if ($user)
+            return view('dashboard.users.edit', compact('title', 'user'));
+        
+        return abort(404);
     }
 
     /**
@@ -114,26 +123,38 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UsersRequest $request, $id)
     {
         $user = User::find($id);
 
-        // validation
-        $validated = $request->validate([
-            'first_name'    => 'required|string|min:3|max:12',
-            'last_name'     => 'required|string|min:3|max:12',
-            'email'         => 'required|email|unique:users,email'.$id,
-            'password'      => 'sometimes|nullable|min:6'
-        ]);
+        $validated = $request->except(['_token', '_method', 'password']);
 
+        // password
+        if ($request->password != '') {
+            $validated['password'] = bcrypt($request->password);
+        }
+
+        // image manipulation and upload
+        if ($request->image) {
+            // saving new image file
+            $saved = Image::make($request->image)
+                    ->resize(150, null, function($constraint) {
+                        $constraint->aspectRatio();
+                    })
+                    ->save(public_path('uploads/users/' . $request->image->hashName()));
+
+            // delete old image
+            if ($saved) { 
+                if ($user->image != 'default-user.png') {
+                    Storage::disk('public_uploads')->delete('/users/' . $user->image);
+                }
+            }
+
+            $validated['image'] = $request->image->hashName();
+        }
 
         // update
-        if ($request->password == '') {
-            $updated = $user->update($request->except(['_token', '_method', 'password']));
-        }else {
-            $validated['password'] = bcrypt($validated['password']);
-            $updated = $user->update($validated);
-        }
+        $updated = $user->update($validated);
 
         // syncronizing permissions
         $user->syncPermissions($request->permissions);
@@ -164,6 +185,9 @@ class UsersController extends Controller
         $user = User::find($id);
         // deleting
         $deleted = $user->delete();
+        // removing user image
+        if ($user->image != 'default-user.png')
+            Storage::disk('public_uploads')->delete('/users/' . $user->image);
 
         // check if deleted
         // check if updated successfully

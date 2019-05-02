@@ -27,7 +27,7 @@
             @endphp
 
             <!-- form start -->
-            <form role="form" action="{{ route('dashboard.users.update', $user->id) }}" method="post">
+            <form role="form" action="{{ route('dashboard.users.update', $user->id) }}" method="post" enctype="multipart/form-data">
                 @csrf
                 @method('PUT')
                 <div class="box-body">
@@ -50,6 +50,16 @@
                     <div class="form-group">
                       <label for="password">@lang('site.password')</label>
                       <input type="password" class="form-control" id="password" name="password" placeholder="@lang('site.password')">
+                    </div>
+
+                    {{-- image --}}
+                    <div class="form-group">
+                        <label for="image">@lang('site.user_image')</label>
+                        <input type="file" class="form-control" id="image" name="image" onchange="imageUploadPreview(this)">
+                    </div>
+
+                    <div class="form-group">
+                      <img src="{{ $user->image_path }}" alt="@lang('site.user_image')" class="img-thumbnail img-preview" style="width: 100px">
                     </div>
 
                     {{-- permissions --}}
@@ -89,3 +99,7 @@
     </div>
 </div>
 @endsection
+
+@push('scripts')
+<script src="{{ asset('AdminLTE/dist/js/custom.js') }}"></script>
+@endpush

@@ -52,6 +52,7 @@
                                 <th>@lang('site.first_name')</th>
                                 <th>@lang('site.last_name')</th>
                                 <th>@lang('site.email')</th>
+                                <th>@lang('site.user_image')</th>
                                 <th>@lang('site.action')</th>
                             </tr>
                             @foreach($users as $index=>$user)
@@ -61,6 +62,9 @@
                                 <td>{{ $user->first_name }}</td>
                                 <td>{{ $user->last_name }}</td>
                                 <td>{{ $user->email }}</td>
+                                <td> 
+                                    <img src="{{ $user->image_path }}" style="width: 70px" class="img-thumbnail" alt="@lang('site.user_image')">
+                                </td>
                                 <td>
                                     {{-- delete --}}
                                     @if(auth()->user()->hasPermission('delete_users'))

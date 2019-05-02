@@ -22,7 +22,7 @@
             </div>
             <!-- /.box-header -->
             <!-- form start -->
-            <form role="form" action="{{ route('dashboard.users.store') }}" method="post">
+            <form role="form" action="{{ route('dashboard.users.store') }}" method="post" enctype="multipart/form-data">
                 @csrf
                 <div class="box-body">
                     {{-- first name --}}
@@ -46,12 +46,23 @@
                       <input type="password" class="form-control" id="password"  name="password" placeholder="@lang('site.password')" required>
                     </div>
 
+                    {{-- image --}}
+                    <div class="form-group">
+                        <label for="image"> @lang('site.user_image') </label>
+                        <input type="file" name="image" id="image" class="form-control" onchange="imageUploadPreview(this)">
+                    </div>
+
+                    <div class="form-group">
+                      <img class="img-preview" class="img-thumbnail" style="width: 100px">
+                    </div>
+
                     @php
                     $models = ['users', 'categories', 'dishes'];
                     $permissions = ['create', 'read', 'update', 'delete'];
                     @endphp
 
                     <div class="form-group">
+                        <label> @lang('site.permissions') </label>
                         <!-- Custom Tabs -->
                         <div class="nav-tabs-custom">
                             <ul class="nav nav-tabs">
@@ -82,3 +93,7 @@
     </div>
 </div>
 @endsection
+
+@push('scripts')
+<script src="{{ asset('AdminLTE/dist/js/custom.js') }}"></script>
+@endpush

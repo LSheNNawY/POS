@@ -14,6 +14,7 @@ return [
     'password'                  => 'كلمة المرور',
     'action'                    => 'التحكم',
     'no_data'                   => 'عفوا, لا يوجد بيانات',
+    'permissions'               => 'الصلاحيات',
     'add'                       => 'اضافة',
     'update'                    => 'تعديل',
     'create'                    => 'اضافة',
@@ -25,5 +26,11 @@ return [
     'success_deleting'          => 'تم الحذف بنجاح',
     'error_adding'              => 'خطا, حاول مرة أخري',
     'delete_confirm_msg'        => 'هل تريد الحذف؟',
-    'sign_out'                  => 'تسجيل الخروج'
+    'sign_out'                  => 'تسجيل الخروج',
+    'user_image'                => 'صورة المستخدم',
+    'login'                     => 'تسجيل الدخول',
+    'register'                  => 'حساب جديد',
+    'forgot_password'           => 'نسيت كلمة السر',
+    'remember_me'               => 'تذكرني',
+    'sign_to_start'             => 'سجل دخولك لتبدأ'
 ];

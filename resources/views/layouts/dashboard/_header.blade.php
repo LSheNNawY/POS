@@ -3,10 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{{ $title?? trans('site.site_name') }}</title>
+    <title>{{ $title?? __('site.site_name') }}</title>
 
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    
+    {{-- favicon --}}
+    <link rel="icon" href="{{ asset('pasta.ico') }}">
+
     <!-- Bootstrap 3.3.7 -->
     <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <!-- Font Awesome -->
