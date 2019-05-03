@@ -15,7 +15,8 @@ class UsersTableSeeder extends Seeder
             'first_name'    => 'super',
             'last_name'     => 'admin',
             'email'         => 'superadmin@site.com',
-            'password'      => bcrypt('123456')
+            'password'      => bcrypt('123456'),
+            'image'         => 'default-user.jpg'
         ]);
 
         $user->attachRole('super_admin');

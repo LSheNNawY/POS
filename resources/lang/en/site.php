@@ -8,6 +8,7 @@ return [
     'search'                    => 'Search',
     'online'                    => 'Online',
     'users'                     => 'Admins',
+    'name'                      =>  'Name',
     'first_name'                => 'First name',
     'last_name'                 => 'Last name',
     'email'                     => 'Email',
@@ -32,5 +33,14 @@ return [
     'register'                  => 'Register',
     'forgot_password'           => 'Forgot your password?',
     'remember_me'               => 'ٌRemember Me',
-    'sign_to_start'             => 'Sign in to start your session'
+    'sign_to_start'             => 'Sign in to start your session',
+    'categories'                => 'Categories',
+
+    'ar' => [
+        'name' => 'Name in arabic'
+    ],
+    'en' => [
+        'name' => 'Name in english'
+    ],
+
 ];

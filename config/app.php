@@ -177,6 +177,8 @@ return [
 
         // imagick
         Intervention\Image\ImageServiceProvider::class,
+        // laravel translatable 
+        Dimsav\Translatable\TranslatableServiceProvider::class,
 
     ],
 

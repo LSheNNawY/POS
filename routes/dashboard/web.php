@@ -18,5 +18,15 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             Route::put('{id}', 'UsersController@update')->name('update');
             Route::delete('{id}', 'UsersController@destroy')->name('destroy');
         });
+
+        // categories routes
+        Route::prefix('categories')->name('categories.')->group(function () {
+            Route::get('', 'CategoriesController@index')->name('index');
+            Route::get('create', 'CategoriesController@create')->name('create');
+            Route::post('store', 'CategoriesController@store')->name('store');
+            Route::get('{id}/edit', 'CategoriesController@edit')->name('edit');
+            Route::put('{id}', 'CategoriesController@update')->name('update');
+            Route::delete('{id}', 'CategoriesController@destroy')->name('destroy');
+        });
     });
 });

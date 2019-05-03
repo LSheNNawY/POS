@@ -190,18 +190,16 @@ class UsersController extends Controller
             Storage::disk('public_uploads')->delete('/users/' . $user->image);
 
         // check if deleted
-        // check if updated successfully
         if ($deleted)
             return redirect(route('dashboard.users.index'))->with([
                 'alertMessage'  => __('site.success_deleting'),
                 'alertType'     => 'success'
             ]);
 
-        else
-            return redirect(route('dashboard.users.index'))->with([
-                'alertMessage'  => 'site.error_adding',
-                'alertType'     => 'error'
-            ]);
+        return redirect(route('dashboard.users.index'))->with([
+            'alertMessage'  => 'site.error_adding',
+            'alertType'     => 'error'
+        ]);
 
     }
 }

@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/font-awesome/css/font-awesome.min.css">
     @if(app()->getLocale() == 'ar')
         <!-- Cairo font -->
-        <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700" rel="stylesheet">
+        {{-- <link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700" rel="stylesheet"> --}}
         <!-- font awesome rtl -->
         <link rel="stylesheet" href="{{asset('AdminLTE')}}/dist/css/font-awesome-rtl.min.css">
         <!-- bootstrap rtl -->

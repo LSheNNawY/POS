@@ -26,7 +26,7 @@ class UsersRequest extends FormRequest
         // updating users request
         if ($this->id) {
             $password = 'nullable|min:6|max:20';
-            $email = ['required', 'email', \Rule::unique('users')->ignore($this->id)];
+            $email = 'required|email|unique:users,email,' . $this->id;
         } 
         // creating user request
         else {
