@@ -39,7 +39,7 @@ class UsersRequest extends FormRequest
             'last_name'     => 'required|string|min:3|max:12',
             'email'         => $email,
             'password'      => $password,
-            'image'         => 'nullable|image|mimes:png,jpeg,bmp8',
+            'image'         => 'nullable|image|mimes:png,jpeg,bmp',
             'permissions'   => 'required|min:1'       
         ];
     }

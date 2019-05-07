@@ -3,12 +3,12 @@
 return [
     'dashboard'                 => 'Dashboard',
     'control_panel'             => 'Control panel',
-    'site_name'                 => 'Laresto',
+    'site_name'                 => 'POS',
     'main_navigation'           => 'Main navigation',
     'search'                    => 'Search',
     'online'                    => 'Online',
     'users'                     => 'Admins',
-    'name'                      =>  'Name',
+    'name'                      => 'Name',
     'first_name'                => 'First name',
     'last_name'                 => 'Last name',
     'email'                     => 'Email',
@@ -35,12 +35,22 @@ return [
     'remember_me'               => 'ٌRemember Me',
     'sign_to_start'             => 'Sign in to start your session',
     'categories'                => 'Categories',
+    'category'                  => 'Category',
+    'products'                  => 'Products',
+    'description'               => 'Description',
+    'purchase_price'            => 'Purchase price',
+    'sale_price'                => 'Sale price',
+    'product_image'             => 'Product image',
+    'stock'                     => 'Stock',
+    'profit'                    => 'Profit',
 
     'ar' => [
-        'name' => 'Name in arabic'
+        'name' => 'Name in arabic',
+        'description' => 'Description in arabic'
     ],
     'en' => [
-        'name' => 'Name in english'
+        'name' => 'Name in english',
+        'description' => 'Description in english'
     ],
 
 ];

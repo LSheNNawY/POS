@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Dashboard;
 
+use App\helpers\IntervUpload;
 use App\User;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
@@ -37,7 +38,7 @@ class UsersController extends Controller
                       ->orWhere('last_name', 'like', '%' . $request->search . '%');
             });
 
-        })->paginate(5);
+        })->latest()->paginate(5);
         return view('dashboard.users.index', compact('title', 'users'));
     }
 
@@ -67,11 +68,8 @@ class UsersController extends Controller
 
         // image manipulation and upload
         if ($request->image) {
-            Image::make($request->image)
-                ->resize(150, null, function($constraint) {
-                    $constraint->aspectRatio();
-            })
-            ->save(public_path('uploads/users/' . $request->image->hashName()));
+            // upload image
+            IntervUpload::upload($request->image, 'users');
 
             $validated['image'] = $request->image->hashName();
         }
@@ -127,7 +125,7 @@ class UsersController extends Controller
     {
         $user = User::find($id);
 
-        $validated = $request->except(['_token', '_method', 'password']);
+        $validated = $request->except(['_token', '_method', 'password', 'image']);
 
         // password
         if ($request->password != '') {
@@ -137,15 +135,11 @@ class UsersController extends Controller
         // image manipulation and upload
         if ($request->image) {
             // saving new image file
-            $saved = Image::make($request->image)
-                    ->resize(150, null, function($constraint) {
-                        $constraint->aspectRatio();
-                    })
-                    ->save(public_path('uploads/users/' . $request->image->hashName()));
+            $saved = IntervUpload::upload($request->image, 'users');
 
             // delete old image
             if ($saved) { 
-                if ($user->image != 'default-user.png') {
+                if ($user->image != 'default-user.jpg') {
                     Storage::disk('public_uploads')->delete('/users/' . $user->image);
                 }
             }
@@ -186,7 +180,7 @@ class UsersController extends Controller
         // deleting
         $deleted = $user->delete();
         // removing user image
-        if ($user->image != 'default-user.png')
+        if ($user->image != 'default-user.jpg')
             Storage::disk('public_uploads')->delete('/users/' . $user->image);
 
         // check if deleted

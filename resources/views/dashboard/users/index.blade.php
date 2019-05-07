@@ -4,7 +4,7 @@
     <section class="content-header">
         <h1>
             @lang('site.users')
-            <small>@lang('site.control_panel')</small>
+            <small>{{ $users->total() }} &nbsp;&nbsp; @lang('site.control_panel')</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="{{ route('dashboard.index') }}"><i class="fa fa-dashboard"></i> @lang('site.dashboard')</a></li>

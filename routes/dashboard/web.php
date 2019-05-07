@@ -9,16 +9,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             return view('dashboard.index');
         })->name('index');
 
-        // users routes
-        Route::prefix('users')->name('users.')->group(function () {
-            Route::get('', 'UsersController@index')->name('index');
-            Route::get('create', 'UsersController@create')->name('create');
-            Route::post('store', 'UsersController@store')->name('store');
-            Route::get('{id}/edit', 'UsersController@edit')->name('edit');
-            Route::put('{id}', 'UsersController@update')->name('update');
-            Route::delete('{id}', 'UsersController@destroy')->name('destroy');
-        });
-
         // categories routes
         Route::prefix('categories')->name('categories.')->group(function () {
             Route::get('', 'CategoriesController@index')->name('index');
@@ -27,6 +17,26 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             Route::get('{id}/edit', 'CategoriesController@edit')->name('edit');
             Route::put('{id}', 'CategoriesController@update')->name('update');
             Route::delete('{id}', 'CategoriesController@destroy')->name('destroy');
+        });
+
+        // products routes
+        Route::prefix('products')->name('products.')->group(function () {
+            Route::get('', 'ProductsController@index')->name('index');
+            Route::get('create', 'ProductsController@create')->name('create');
+            Route::post('store', 'ProductsController@store')->name('store');
+            Route::get('{id}/edit', 'ProductsController@edit')->name('edit');
+            Route::put('{id}', 'ProductsController@update')->name('update');
+            Route::delete('{id}', 'ProductsController@destroy')->name('destroy');
+        });
+
+        // users routes
+        Route::prefix('users')->name('users.')->group(function () {
+            Route::get('', 'UsersController@index')->name('index');
+            Route::get('create', 'UsersController@create')->name('create');
+            Route::post('store', 'UsersController@store')->name('store');
+            Route::get('{id}/edit', 'UsersController@edit')->name('edit');
+            Route::put('{id}', 'UsersController@update')->name('update');
+            Route::delete('{id}', 'UsersController@destroy')->name('destroy');
         });
     });
 });

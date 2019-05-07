@@ -4,7 +4,7 @@
     <section class="content-header">
         <h1>
             @lang('site.categories')
-            <small>@lang('site.control_panel')</small>
+            <small>{{ $categories->total() }} &nbsp;&nbsp; @lang('site.control_panel')</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="{{ route('dashboard.index') }}"><i class="fa fa-dashboard"></i> @lang('site.dashboard')</a></li>
@@ -20,6 +20,7 @@
 						<form action="{{ route('dashboard.categories.index') }}" method="get" id="searchForm">
 							<div class="row">
 								<div class="col-md-4">
+									{{-- search by name --}}
 									<input type="text" name="search" class="form-control" value="{{ request()->search }}" placeholder="@lang('site.search')">
 								</div>
 								<div class="col-md-4">
@@ -50,6 +51,7 @@
                             <tr>
                                 <th style="width: 10px">#</th>
                                 <th>@lang('site.name')</th>
+                                <th>@lang('site.products')</th>
                                 <th>@lang('site.action')</th>
                             </tr>
                             @foreach($categories as $index=>$category)
@@ -57,6 +59,7 @@
 
                                 <td>{{ $index + 1  }}</td>
                                 <td>{{ $category->name }}</td>
+                                <td><a href="{{ route('dashboard.products.index', ['category_id' => $category->id]) }}" class="btn btn-primary">@lang('site.related_products')</a></td>
                                 <td>
                                     {{-- delete --}}
                                     @if(auth()->user()->hasPermission('delete_categories'))

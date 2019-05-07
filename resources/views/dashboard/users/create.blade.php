@@ -57,7 +57,7 @@
                     </div>
 
                     @php
-                    $models = ['users', 'categories', 'dishes'];
+                    $models = ['users', 'categories', 'products'];
                     $permissions = ['create', 'read', 'update', 'delete'];
                     @endphp
 

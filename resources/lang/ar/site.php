@@ -3,7 +3,7 @@
 return [
     'dashboard'                 => 'الرئيسية',
     'control_panel'             => 'لوحة التحكم',
-    'site_name'                 => 'لاريستو',
+    'site_name'                 => 'بيع أون لاين',
     'main_navigation'           => 'الموجة الرئيسى',
     'search'                    => 'بحث',
     'online'                    => 'متصل',
@@ -35,11 +35,22 @@ return [
     'remember_me'               => 'تذكرني',
     'sign_to_start'             => 'سجل دخولك لتبدأ',
     'categories'                => 'الأقسام',
+    'category'                  => 'القسم',
+    'products'                  => 'المنتجات',
+    'description'               => 'الوصف',
+    'purchase_price'            => 'سعر الشراء',
+    'sale_price'                => 'سعر البيع',
+    'product_image'             => 'صورة المنتج',
+    'stock'                     => 'المخزن',
+    'profit'                    => 'الربح',
+    'related_products'          => 'منتجات ذات صلة',
 
     'ar' => [
-        'name' => 'اﻹسم باللغة العربية'
+        'name' => 'اﻹسم باللغة العربية',
+        'description' => 'الوصف باللغة العربية'
     ],
     'en' => [
-        'name' => 'اﻹسم باللغة اﻹنجليزية'
+        'name' => 'اﻹسم باللغة اﻹنجليزية',
+        'description' => 'الوصف باللغة اﻹنجليزية',
     ],
 ];

@@ -29,8 +29,8 @@ class CategoriesController extends Controller
          * then on this result, when request has a search value perform search
          */
         $categories = Category::when($request->search, function ($query) use ($request) {
-                $query->where('name', 'like', '%'. $request->search . '%');
-        })->paginate(5);
+                $query->whereTranslationLike('name', '%'. $request->search . '%');
+        })->latest()->paginate(5);
 
         return view('dashboard.categories.index', compact('title', 'categories'));
     }
