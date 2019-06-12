@@ -26,6 +26,7 @@ class ProductsRequest extends FormRequest
     {
 
         $rules = [
+            'category_id'       => 'numeric',
             'purchase_price'    => 'required|between:1,999999.99',
             'sale_price'        => 'required|between:1,999999.99',
             'stock'             => 'required|integer|min:1',
@@ -37,10 +38,10 @@ class ProductsRequest extends FormRequest
         {
             $rules += [
                 $locale . '.name' => [
-                    'required', 'string', 'min:3', 'max:20',
+                    'required', 'string', 'min:2', 'max:20',
                 ],
                 $locale . '.description' => [
-                    'required', 'string', 'min:3', 'max:200'
+                    'required', 'string', 'min:2', 'max:200'
                 ],
 
             ];

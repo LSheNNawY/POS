@@ -174,7 +174,20 @@ return [
         'time' => 'Time',
         'available' => 'Available',
         'size' => 'Size',
-        'permissions'   => 'Permissions'
+        'permissions'   => 'Permissions',
+        'phone.0'  => 'First phone number',
+        'phone.1'  => 'Second phone number',
+
+        'ar' => [
+            'name'  => 'Name in arabic',
+            'description' => 'Description in arabic',
+            'address' => 'Address in arabic',
+        ],
+        'en' => [
+            'name'  => 'Name in english',
+            'description' => 'Description in english',
+            'address' => 'Address in english',
+        ],
     ],
 
 ];

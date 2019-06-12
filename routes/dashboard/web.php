@@ -29,7 +29,21 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             Route::delete('{id}', 'ProductsController@destroy')->name('destroy');
         });
 
-        // users routes
+        // clients routes
+        Route::prefix('clients')->name('clients.')->group(function () {
+            Route::get('', 'ClientsController@index')->name('index');
+            Route::get('create', 'ClientsController@create')->name('create');
+            Route::post('store', 'ClientsController@store')->name('store');
+            Route::get('{id}/edit', 'ClientsController@edit')->name('edit');
+            Route::put('{id}', 'ClientsController@update')->name('update');
+            Route::delete('{id}', 'ClientsController@destroy')->name('destroy');
+
+            // orders
+            Route::get('{id}/order/create', 'OrderController@create')->name('order.create');
+
+        });
+
+        // admins routes
         Route::prefix('users')->name('users.')->group(function () {
             Route::get('', 'UsersController@index')->name('index');
             Route::get('create', 'UsersController@create')->name('create');

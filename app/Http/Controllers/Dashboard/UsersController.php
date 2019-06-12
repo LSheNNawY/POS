@@ -19,11 +19,8 @@ class UsersController extends Controller
         $this->middleware(['permission:create_users'])->only('create');
         $this->middleware(['permission:update_users'])->only('edit');
     }
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
+
     public function index(Request $request)
     {
         $title = __('site.users');
@@ -42,23 +39,14 @@ class UsersController extends Controller
         return view('dashboard.users.index', compact('title', 'users'));
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function create()
     {
         $title = __('site.add');
         return view('dashboard.users.create', compact('title'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
+
     public function store(UsersRequest $request)
     {
         $validated = $request->except(['password', 'permissions', 'image']);
@@ -97,12 +85,7 @@ class UsersController extends Controller
         ]);
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function edit($id)
     {
         $title = __('site.update');
@@ -114,13 +97,7 @@ class UsersController extends Controller
         return abort(404);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function update(UsersRequest $request, $id)
     {
         $user = User::find($id);
@@ -168,12 +145,7 @@ class UsersController extends Controller
 
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+
     public function destroy($id)
     {
         $user = User::find($id);

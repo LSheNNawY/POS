@@ -63,6 +63,7 @@
                                 <th>@lang('site.description')</th>
                                 <th>@lang('site.purchase_price')</th>
                                 <th>@lang('site.sale_price')</th>
+                                <th>@lang('site.profit')</th>
                                 <th>@lang('site.profit') %</th>
                                 <th>@lang('site.product_image')</th>
 								<th>@lang('site.stock')</th>
@@ -77,7 +78,8 @@
                                 <td>{!! $product->description !!}</td>
                                 <td>{{ $product->purchase_price }}</td>
                                 <td>{{ $product->sale_price }}</td>
-                                <td>{{ $product->profit }} %</td>
+                                <td>{{ $product->profit }} </td>
+                                <td>{{ $product->profit_percent }} %</td>
 								<td>
 									<img src="{{ $product->image_path }}" style="width: 70px" class="img-thumbnail" alt="@lang('site.product_image')">
 								</td>

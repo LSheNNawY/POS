@@ -3,12 +3,12 @@
 @section('content')
     <section class="content-header">
         <h1>
-            @lang('site.categories')
-            <small>{{ $categories->total() }} &nbsp;&nbsp; @lang('site.control_panel')</small>
+            @lang('site.clients')
+            <small>{{ $clients->total() }} &nbsp;&nbsp; @lang('site.control_panel')</small>
         </h1>
         <ol class="breadcrumb">
             <li><a href="{{ route('dashboard.index') }}"><i class="fa fa-dashboard"></i> @lang('site.dashboard')</a></li>
-            <li><a href="#">@lang('site.categories')</a></li>
+            <li><a href="#">@lang('site.clients')</a></li>
         </ol>
     </section>
     <section class="content">
@@ -17,10 +17,10 @@
                 <div class="box">
                     <div class="box-header with-border">
 
-						<form action="{{ route('dashboard.categories.index') }}" method="get" id="searchForm">
+						<form action="{{ route('dashboard.clients.index') }}" method="get" id="searchForm">
 							<div class="row">
 								<div class="col-md-4">
-									{{-- search by name --}}
+									{{-- search --}}
 									<input type="text" name="search" class="form-control" value="{{ request()->search }}" placeholder="@lang('site.search')">
 								</div>
 								<div class="col-md-4">
@@ -29,9 +29,9 @@
 										@lang('site.search')
 									</button>
 
-									{{-- create category --}}
-									@if(auth()->user()->hasPermission('create_categories'))
-										<a href="{{ route('dashboard.categories.create') }}" class="btn btn-success">
+									{{-- create client --}}
+									@if(auth()->user()->hasPermission('create_clients'))
+										<a href="{{ route('dashboard.clients.create') }}" class="btn btn-success">
 											<i class="fa fa-plus-circle"></i>
 											@lang('site.add')
 										</a>
@@ -45,35 +45,33 @@
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
-                        @if(count($categories) > 0)
+                        @if(count($clients) > 0)
                         <table class="table table-bordered">
                             <tbody>
                             <tr>
                                 <th style="width: 10px">#</th>
                                 <th>@lang('site.name')</th>
-                                <th>@lang('site.products_count')</th>
-                                <th>@lang('site.products')</th>
+                                <th>@lang('site.phone')</th>
+                                <th>@lang('site.address')</th>
+                                <th></th>
                                 <th>@lang('site.action')</th>
                             </tr>
-                            @foreach($categories as $index=>$category)
+                            @foreach($clients as $index=>$client)
                             <tr>
 
                                 <td>{{ $index + 1  }}</td>
-                                <td>{{ $category->name }}</td>
-                                <td>{{ $category->products->count() }}</td>
-                                @if($category->products->count() > 0)
-                                <td><a href="{{ route('dashboard.products.index', ['category_id' => $category->id]) }}" class="btn btn-primary">@lang('site.related_products')</a></td>
-                                @else
-                                <td><a href="#" class="btn btn-primary disabled">@lang('site.related_products')</a></td>
-                                @endif
+                                <td>{{ $client->name }}</td>
+                                <td>{{ implode($client->phone, ' - ') }}</td>
+                                <td>{{ $client->address }}</td>
+                                <td><a class="btn btn-primary" href="{{ route('dashboard.clients.order.create', $client->id) }}">@lang('site.make_order')</a></td>
                                 <td>
                                     {{-- delete --}}
-                                    @if(auth()->user()->hasPermission('delete_categories'))
+                                    @if(auth()->user()->hasPermission('delete_clients'))
                                     <div class="inline">
                                         <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
                                             <i class="fa fa-trash"></i>
                                         </a>
-                                        <form class="hidden" id="deleteForm" action="{{ route('dashboard.categories.destroy', $category->id) }}" method="post">
+                                        <form class="hidden" id="deleteForm" action="{{ route('dashboard.clients.destroy', $client->id) }}" method="post">
                                             @csrf
                                             @method('delete')
                                         </form>
@@ -85,8 +83,8 @@
                                     @endif
 
                                     {{-- update --}}
-                                    @if(auth()->user()->hasPermission('update_categories'))
-                                        <a href="{{ route('dashboard.categories.edit', $category->id) }}" class="btn btn-sm btn-warning" title="@lang('site.update')"><i class="fa fa-pencil"></i></a>
+                                    @if(auth()->user()->hasPermission('update_clients'))
+                                        <a href="{{ route('dashboard.clients.edit', $client->id) }}" class="btn btn-sm btn-warning" title="@lang('site.update')"><i class="fa fa-pencil"></i></a>
                                     @else
                                         <a href="#" class="btn btn-sm btn-warning disabled" title="@lang('site.update')"><i class="fa fa-pencil"></i></a>
                                     @endif
@@ -103,7 +101,7 @@
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
                         <ul class="pagination pagination-sm no-margin pull-right">
-                            {{ $categories->appends(['search' => request()->search])->links() }}
+                            {{ $clients->appends(['search' => request()->search])->links() }}
                         </ul>
                     </div>
                 </div>

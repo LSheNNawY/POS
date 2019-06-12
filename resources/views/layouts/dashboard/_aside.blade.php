@@ -18,7 +18,7 @@
         @if(auth()->user()->hasPermission('read_categories'))
           <li class="{{ menu_active_link('categories') }}">
             <a href="{{ route('dashboard.categories.index') }}">
-              <i class="fa fa-group"></i> <span>@lang('site.categories')</span>
+              <i class="fa fa-object-group"></i> <span>@lang('site.categories')</span>
             </a>
           </li>
         @endif
@@ -27,16 +27,25 @@
         @if(auth()->user()->hasPermission('read_products'))
           <li class="{{ menu_active_link('products') }}">
             <a href="{{ route('dashboard.products.index') }}">
-              <i class="fa fa-group"></i> <span>@lang('site.products')</span>
+              <i class="fa fa-shopping-basket"></i> <span>@lang('site.products')</span>
             </a>
           </li>
         @endif
 
-        {{-- users --}}
+        {{-- clients--}}
+        @if(auth()->user()->hasPermission('read_clients'))
+          <li class="{{ menu_active_link('clients') }}">
+            <a href="{{ route('dashboard.clients.index') }}">
+              <i class="fa fa-group"></i> <span>@lang('site.clients')</span>
+            </a>
+          </li>
+        @endif
+
+        {{-- admins --}}
 		@if(auth()->user()->hasPermission('read_users'))
         <li class="{{ menu_active_link('users') }}">
           <a href="{{ route('dashboard.users.index') }}">
-            <i class="fa fa-group"></i> <span>@lang('site.users')</span>
+            <i class="fa fa-key"></i> <span>@lang('site.users')</span>
           </a>
         </li>
         @endif
