@@ -50,7 +50,8 @@
                                                         <td>{{ $product->sale_price }}</td>
                                                         <td>
                                                             <a href="#"
-                                                             class="btn btn-success add_product"
+                                                            id="product-{{$product->id}}"
+                                                             class="btn btn-success add-product-btn"
                                                              data-id="{{$product->id}}"
                                                              data-name="{{$product->name}}"
                                                              data-price="{{$product->sale_price}}">
@@ -85,8 +86,23 @@
 
                     <div class="box-body">
                         <table class="table table-hover">
-                            <tbody id="product_table"></tbody>
+                            <tbody id="product_table" class="order-list"></tbody>
                         </table>
+                    </div>
+
+                    <div class="box-footer">
+                        <h4>@lang('site.total') : <span id="total_price">0</span></h4>
+                        <br>
+                        <!-- add new order form -->
+                        <form action="#" method="post">
+                            @csrf
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary disabled" id="add-order-btn">
+                                    <i class="fa fa-plus"></i>&nbsp;
+                                    <strong>@lang('site.add_order')</strong>
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -96,5 +112,6 @@
 
 @push('scripts')
 <script src="{{ asset('AdminLTE/dist/js/custom.js') }}"></script>
+<script src="{{ asset('AdminLTE/dist/js/jquery.number.min.js') }}"></script>
 <script src="{{ asset('AdminLTE/dist/js/order.js') }}"></script>
 @endpush
