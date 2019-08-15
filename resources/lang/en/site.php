@@ -60,6 +60,8 @@ return [
 
     'orders'                    => 'Orders',
     'make_order'                => 'New order',
+    'total'                     => 'Total',
+    'add_order'                 => 'Add order',
 
     'ar' => [
         'name'                  => 'Name in arabic',

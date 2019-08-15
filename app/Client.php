@@ -15,4 +15,13 @@ class Client extends Model
     protected $casts = [
         'phone' => 'array'
     ];
+
+    /**
+     * client order relationship
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function orders()
+    {
+        return $this->hasMany(Order::class);
+    }
 }

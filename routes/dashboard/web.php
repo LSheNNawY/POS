@@ -39,7 +39,8 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             Route::delete('{id}', 'ClientsController@destroy')->name('destroy');
 
             // orders
-            Route::get('{id}/order/create', 'OrderController@create')->name('order.create');
+                // using {client} parameter not {id} to use Client $client object in controller method
+            Route::get('{client}/order/create', 'OrderController@create')->name('order.create');
 
         });
 

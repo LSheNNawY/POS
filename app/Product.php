@@ -22,6 +22,13 @@ class Product extends Model
         return $this->belongsTo(Category::class);
     }
 
+    /**
+     * product order relationship
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function orders() {
+        return $this->belongsToMany(Order::class,'product_order');
+    }
 
     public function getImagePathAttribute() {
         return asset('uploads/products/' . $this->image);

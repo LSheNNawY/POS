@@ -61,7 +61,7 @@
 
                                 <td>{{ $index + 1  }}</td>
                                 <td>{{ $client->name }}</td>
-                                <td>{{ implode($client->phone, ' - ') }}</td>
+                                <td>{{ is_array($client->phone)? implode($client->phone, ' - ') : $client->phone }}</td>
                                 <td>{{ $client->address }}</td>
                                 <td><a class="btn btn-primary" href="{{ route('dashboard.clients.order.create', $client->id) }}">@lang('site.make_order')</a></td>
                                 <td>

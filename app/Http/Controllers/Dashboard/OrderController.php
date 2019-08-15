@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Dashboard;
 use App\Category;
 use App\Order;
 use App\Product;
+use App\Client;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
@@ -25,11 +26,12 @@ class OrderController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Client $client)
     {
         $title = __('site.make_order');
         $categories = Category::with('products')->get();
-        return view('dashboard.clients.orders.create', compact('title', 'categories'));
+
+        return view('dashboard.clients.orders.create', compact('title', 'categories', 'client'));
     }
 
     /**

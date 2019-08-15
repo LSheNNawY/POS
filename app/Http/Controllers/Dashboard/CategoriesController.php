@@ -35,7 +35,7 @@ class CategoriesController extends Controller
         return view('dashboard.categories.index', compact('title', 'categories'));
     }
 
-    /**
+    /**id
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
