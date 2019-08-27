@@ -27,7 +27,7 @@ class Product extends Model
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function orders() {
-        return $this->belongsToMany(Order::class,'product_order');
+        return $this->belongsToMany(Order::class,'order_product');
     }
 
     public function getImagePathAttribute() {

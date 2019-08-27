@@ -35,14 +35,45 @@ class OrderController extends Controller
     }
 
     /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
+     * @param Request $request
+     * @param Client $client
+     * @return \Illuminate\Http\RedirectResponse
      */
-    public function store(Request $request)
+    public function store(Request $request, Client $client)
     {
-        //
+        $products = $request->products;
+        $total_price = 0;
+
+        // creating new order
+        $order = $client->orders()->create([]);
+
+        // adding order products (using attach for many to many relationship)
+        $order->products()->attach($request->products);
+
+
+        // looping over products
+        foreach ($products as $product_id => $quantity_array)
+        {
+            $product_quantity = $quantity_array['quantity'];
+
+            // getting each product sale price
+            $product = Product::findOrFail($product_id);
+            $product_salae_price = $product->sale_price;
+
+            // calculating total price for each product then adding to order total price
+            $total_price += ($product_salae_price * $product_quantity);
+
+            // updating each product stock
+            $product->update(['stock' => ($product->stock - $product_quantity)]);
+        }
+
+        // updating order to add total price
+        $order->update(['total_price'=> $total_price]);
+
+        return back()->with([
+            'alertMessage'  => __('site.success_adding'),
+            'alertType'     => 'success'
+        ]);
     }
 
     /**

@@ -21,7 +21,7 @@ class Order extends Model
      * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
     public function products() {
-        return $this->belongsToMany(Product::class, 'product_order');
+        return $this->belongsToMany(Product::class, 'order_product');
     }
 
 }

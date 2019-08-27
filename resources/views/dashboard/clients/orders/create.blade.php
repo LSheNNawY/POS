@@ -85,18 +85,15 @@
                     </div>
 
                     <div class="box-body">
-                        <table class="table table-hover">
-                            <tbody id="product_table" class="order-list"></tbody>
-                        </table>
-                    </div>
-
-                    <div class="box-footer">
-                        <h4>@lang('site.total') : <span id="total_price">0</span></h4>
-                        <br>
                         <!-- add new order form -->
-                        <form action="#" method="post">
+                        <form action="{{ route('dashboard.clients.order.store', $client) }}" method="post">
                             @csrf
                             <div class="form-group">
+                                <table class="table table-hover">
+                                    <tbody id="product_table" class="order-list"></tbody>
+                                </table>
+                                <h4>@lang('site.total') : <span id="total_price">0</span></h4>
+                                <br>
                                 <button type="submit" class="form-control btn btn-primary disabled" id="add-order-btn">
                                     <i class="fa fa-plus"></i>&nbsp;
                                     <strong>@lang('site.add_order')</strong>
