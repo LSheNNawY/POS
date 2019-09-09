@@ -19,6 +19,7 @@ return [
     'no_data'                   => 'Sorry, no data found!',
 
     'permissions'               => 'Permissions',
+    'show'                      => 'Show',
     'add'                       => 'Add',
     'update'                    => 'Update',
     'delete'                    => 'Delete',
@@ -62,6 +63,10 @@ return [
     'make_order'                => 'New order',
     'total'                     => 'Total',
     'add_order'                 => 'Add order',
+    'total_price'               => 'Total price',
+    'creation_date'             => 'Date',
+    'order_status'              => 'Status',
+    'order_processing'          => 'Processing',
 
     'ar' => [
         'name'                  => 'Name in arabic',

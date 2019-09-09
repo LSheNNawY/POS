@@ -19,6 +19,7 @@ return [
     'no_data'                   => 'عفوا, لا يوجد بيانات',
 
     'permissions'               => 'الصلاحيات',
+    'show'                      => 'عرض',
     'add'                       => 'اضافة',
     'update'                    => 'تعديل',
     'create'                    => 'اضافة',
@@ -62,6 +63,10 @@ return [
     'make_order'                => 'طلب جديد',
     'total'                     => 'المجموع',
     'add_order'                 => 'اضافة طلب',
+    'total_price'               => 'السعر الكلي',
+    'creation_date'             => 'التاريخ',
+    'order_status'              => 'حالة الطلب',
+    'order_processing'          => 'قيد التحضير',
 
     'ar' => [
         'name'                  => 'اﻹسم باللغة العربية',

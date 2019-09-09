@@ -70,7 +70,7 @@ class OrderController extends Controller
         // updating order to add total price
         $order->update(['total_price'=> $total_price]);
 
-        return back()->with([
+        return redirect()->route('dashboard.orders.index')->with([
             'alertMessage'  => __('site.success_adding'),
             'alertType'     => 'success'
         ]);

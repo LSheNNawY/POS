@@ -41,6 +41,15 @@
           </li>
         @endif
 
+          {{-- orders--}}
+        @if(auth()->user()->hasPermission('read_orders'))
+          <li class="{{ menu_active_link('orders') }}">
+            <a href="{{ route('dashboard.orders.index') }}">
+              <i class="fa fa-group"></i> <span>@lang('site.orders')</span>
+            </a>
+          </li>
+        @endif
+
         {{-- admins --}}
 		@if(auth()->user()->hasPermission('read_users'))
         <li class="{{ menu_active_link('users') }}">

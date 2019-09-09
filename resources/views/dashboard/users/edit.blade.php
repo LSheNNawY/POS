@@ -22,7 +22,7 @@
 					</div>
 					<!-- /.box-header -->
 				@php
-					$models = ['users', 'categories', 'products'];
+					$models = ['users', 'categories', 'products', 'clients', 'orders'];
 					$permissions = ['create', 'read', 'update', 'delete'];
 				@endphp
 
