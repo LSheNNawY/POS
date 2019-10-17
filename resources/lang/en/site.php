@@ -67,6 +67,8 @@ return [
     'creation_date'             => 'Date',
     'order_status'              => 'Status',
     'order_processing'          => 'Processing',
+    'order'                     => 'Order',
+    'quantity'                  => 'Quantity',
 
     'ar' => [
         'name'                  => 'Name in arabic',

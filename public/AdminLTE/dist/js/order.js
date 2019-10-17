@@ -94,6 +94,17 @@ $(document).ready(function () {
 
     }
 
+    $('body').on('click', '.show_order_btn', function(e) {
+        e.preventDefault();
+        $.ajax({
+            url:        $(this).data('url'),
+            method:     $(this).data('method'),
+            success: function(data) {
+               $('#order_details').html(data);
+            }
+        });
+    });
+
     //list all order products
     // $('.order-products').on('click', function(e) {
     //

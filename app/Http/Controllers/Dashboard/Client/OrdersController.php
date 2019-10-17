@@ -62,9 +62,20 @@ class OrdersController extends Controller
      * @param  \App\Order  $order
      * @return \Illuminate\Http\Response
      */
-    public function show(Order $order)
+    public function show(Request $request, Order $order)
     {
-        //
+        if ($request->ajax()) {
+
+            $title = __('site.order');
+            $order = Order::with('products')->find($order)->first();
+
+            if ($order)
+                return view('dashboard.orders._showOrder', compact('title', 'order'));
+
+            return response('Not found', 500);
+        }
+
+        return abort(404);
     }
 
     /**

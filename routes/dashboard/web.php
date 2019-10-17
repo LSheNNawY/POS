@@ -46,6 +46,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
         
         Route::prefix('orders')->name('orders.')->group(function () {
             Route::get('/', 'Client\OrdersController@index')->name('index');
+            Route::get('/{order}', 'Client\OrdersController@show')->name('show');
         });
 
         // admins routes

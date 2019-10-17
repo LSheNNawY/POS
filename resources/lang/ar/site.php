@@ -67,6 +67,9 @@ return [
     'creation_date'             => 'التاريخ',
     'order_status'              => 'حالة الطلب',
     'order_processing'          => 'قيد التحضير',
+    'order'                     => 'الطلب',
+    'quantity'                  => 'الكمية',
+
 
     'ar' => [
         'name'                  => 'اﻹسم باللغة العربية',

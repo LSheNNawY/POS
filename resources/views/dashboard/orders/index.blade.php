@@ -54,7 +54,11 @@
 											<td {{--class="label label-{{ ($title == 0)? 'warning':'success' }}--}}">@lang('site.order_status')</td>
 											<td>{{ date_format($order->created_at, 'Y-m-d')}}</td>
 											<td>
-												<a href="#" class="label label-primary margin-r-5">
+												<a href="#"
+												   class="label label-primary margin-r-5 show_order_btn"
+												   data-url="{{route('dashboard.orders.show', $order->id)}}"
+												   data-method="get"
+												>
 													<i class="fa fa-bars"></i> @lang('site.show')
 												</a>
 												<a href="#" class="label label-warning margin-r-5">
@@ -80,28 +84,9 @@
 				</div>
 			</div>
 
-			<div class="col-md-4">
-				<div class="box box-primary">
+			{{-- Show order content with ajax --}}
+			<div class="col-md-4" id="order_details">
 
-					<div class="box-header">
-						<h3 class="box-title" style="margin-bottom: 10px">@lang('site.show')</h3>
-					</div>
-
-					<div class="box-body">
-						<!-- add new order form -->
-						<form action="" method="post">
-							@csrf
-							<div class="form-group">
-								<table class="table table-hover">
-									<tbody id="product_table" class="order-list"></tbody>
-								</table>
-								<h4>@lang('site.total') : <span id="total_price">0</span></h4>
-								<br>
-
-							</div>
-						</form>
-					</div>
-				</div>
 			</div>
 		</div>
 	</section>
