@@ -85,8 +85,17 @@
 			</div>
 
 			{{-- Show order content with ajax --}}
-			<div class="col-md-4" id="order_details">
+			<div class="col-md-4">
+				<div class="box box-primary" id="products-box" style="display: none;">
+					<div class="box-header">
+						<h3 class="box-title" style="margin-bottom: 10px">@lang('site.show')</h3>
+					</div>
 
+					<div class="box-body">
+						{{-- show loader till order be ready --}}
+
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>

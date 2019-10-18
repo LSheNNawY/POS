@@ -70,6 +70,8 @@ return [
     'order'                     => 'Order',
     'quantity'                  => 'Quantity',
 
+    'loading'                   => 'Loading...',
+
     'ar' => [
         'name'                  => 'Name in arabic',
         'description'           => 'Description in arabic',

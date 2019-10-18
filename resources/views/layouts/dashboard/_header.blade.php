@@ -36,6 +36,7 @@
     @endif
 <!-- notyjs -->
     <link rel="stylesheet" href="{{ asset('AdminLTE') }}/bower_components/notyjs/noty.css">
+    <link rel="stylesheet" href="{{ asset('AdminLTE') }}/dist/css/loader.css">
 
     <!-- Morris chart -->
     {{--  <link rel="stylesheet" href="{{asset('AdminLTE')}}/bower_components/morris.js/morris.css">--}}

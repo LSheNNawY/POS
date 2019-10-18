@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    var body = $('body');
     //add product btn
     $('.add-product-btn').on('click', function (e) {
 
@@ -35,14 +36,14 @@ $(document).ready(function () {
     });
 
     //disabled btn
-    $('body').on('click', '.disabled', function(e) {
+    body.on('click', '.disabled', function(e) {
 
         e.preventDefault();
 
     });//end of disabled
 
     //remove product btn
-    $('body').on('click', '.remove-product-btn', function(e) {
+    body.on('click', '.remove-product-btn', function(e) {
 
         e.preventDefault();
 
@@ -60,7 +61,7 @@ $(document).ready(function () {
 
 
     //change product quantity
-    $('body').on('keyup change', '.product-quantity', function() {
+    body.on('keyup change', '.product-quantity', function() {
 
         var quantity = Number($(this).val()); // convert string to number
         var unitPrice = parseFloat($(this).data('price').replace(/,/g, '')); // remove comma & parse to float
@@ -94,39 +95,33 @@ $(document).ready(function () {
 
     }
 
-    $('body').on('click', '.show_order_btn', function(e) {
+    // display order details function
+    body.on('click', '.show_order_btn', function(e) {
         e.preventDefault();
+
+        var loadingHtml = `
+                        <div style="display: flex; flex-direction: column; align-items: center;" id="loading">
+                            <div class="loader">
+                                <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div>
+                                    <div></div><div></div><div></div><div></div><div></div><div></div><div></div>
+                                </div>
+                            </div>
+                        </div>`;
+
+        var productsBox = $('#products-box .box-body');
+
+        productsBox.empty();
+        $('#products-box').css('display', 'block');
+        productsBox.html(loadingHtml);
         $.ajax({
             url:        $(this).data('url'),
             method:     $(this).data('method'),
             success: function(data) {
-               $('#order_details').html(data);
+                productsBox.html(data);
             }
         });
     });
 
-    //list all order products
-    // $('.order-products').on('click', function(e) {
-    //
-    //     e.preventDefault();
-    //
-    //     $('#loading').css('display', 'flex');
-    //
-    //     var url = $(this).data('url');
-    //     var method = $(this).data('method');
-    //     $.ajax({
-    //         url: url,
-    //         method: method,
-    //         success: function(data) {
-    //
-    //             $('#loading').css('display', 'none');
-    //             $('#order-product-list').empty();
-    //             $('#order-product-list').append(data);
-    //
-    //         }
-    //     })
-    //
-    // });//end of order products click
 
     //print order
     // $(document).on('click', '.print-btn', function() {
