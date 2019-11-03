@@ -70,10 +70,10 @@
                                     {{-- delete --}}
                                     @if(auth()->user()->hasPermission('delete_categories'))
                                     <div class="inline">
-                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
+                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm-{{$category->id}}", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
                                             <i class="fa fa-trash"></i>
                                         </a>
-                                        <form class="hidden" id="deleteForm" action="{{ route('dashboard.categories.destroy', $category->id) }}" method="post">
+                                        <form class="hidden" id="deleteForm-{{$category->id}}" action="{{ route('dashboard.categories.destroy', $category->id) }}" method="post">
                                             @csrf
                                             @method('delete')
                                         </form>

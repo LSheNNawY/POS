@@ -54,6 +54,7 @@
 											<td {{--class="label label-{{ ($title == 0)? 'warning':'success' }}--}}">@lang('site.order_status')</td>
 											<td>{{ date_format($order->created_at, 'Y-m-d')}}</td>
 											<td>
+												@if(auth()->user()->hasPermission('read_orders'))
 												<a href="#"
 												   class="label label-primary margin-r-5 show_order_btn"
 												   data-url="{{route('dashboard.orders.show', $order->id)}}"
@@ -61,12 +62,24 @@
 												>
 													<i class="fa fa-bars"></i> @lang('site.show')
 												</a>
+												@endif
+
+												@if(auth()->user()->hasPermission('update_orders'))
 												<a href="#" class="label label-warning margin-r-5">
 													<i class="fa fa-pencil"></i> @lang('site.update')
 												</a>
-												<a href="#" class="label label-danger">
+												@endif
+
+												@if(auth()->user()->hasPermission('delete_orders'))
+												<a class="label label-danger" onclick='confirmDelete("deleteForm-{{$order->id}}", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
 													<i class="fa fa-trash"></i> @lang('site.delete')
 												</a>
+												{{-- delete form--}}
+												<form class="hidden" id="deleteForm-{{$order->id}}" action="{{ route('dashboard.orders.destroy', $order) }}" method="post">
+													@csrf
+													@method('delete')
+												</form>
+												@endif
 											</td>
 										</tr>
 										@endforeach

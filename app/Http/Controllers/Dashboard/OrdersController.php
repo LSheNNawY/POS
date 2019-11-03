@@ -9,19 +9,35 @@ use App\Client;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 
-class OrderController extends Controller
+class OrdersController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware(['permission:read_orders'])->only('index');
+        $this->middleware(['permission:create_orders'])->only('create');
+        $this->middleware(['permission:update_orders'])->only('edit');
+    }
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        //
-    }
 
-    /**
+        $title = __('site.orders');
+        // search orders by client name
+        $orders = Order::whereHas('client', function($q) use($request){
+            
+            return $q->whereTranslationLike('name', '%' . $request->search . '%');
+
+        })->latest()->paginate(5);
+
+        return view('dashboard.orders.index', compact('title', 'orders'));
+    }
+  /**
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response
@@ -76,15 +92,27 @@ class OrderController extends Controller
         ]);
     }
 
+
     /**
      * Display the specified resource.
      *
      * @param  \App\Order  $order
      * @return \Illuminate\Http\Response
      */
-    public function show(Order $order)
+    public function show(Request $request, Order $order)
     {
+        if ($request->ajax()) {
 
+            $title = __('site.order');
+            $order = Order::with('products')->find($order)->first();
+
+            if ($order)
+                return view('dashboard.orders._showOrder', compact('title', 'order'));
+
+            return response('Not found', 500);
+        }
+
+        return abort(404);
     }
 
     /**
@@ -118,6 +146,20 @@ class OrderController extends Controller
      */
     public function destroy(Order $order)
     {
-        //
+
+        // deleting
+        $deleted = $order->delete();
+
+        // check if deleted
+        if ($deleted)
+            return redirect(route('dashboard.orders.index'))->with([
+                'alertMessage'  => __('site.success_deleting'),
+                'alertType'     => 'success'
+            ]);
+
+        return redirect(route('dashboard.orders.index'))->with([
+            'alertMessage'  => 'site.error_adding',
+            'alertType'     => 'error'
+        ]);
     }
 }

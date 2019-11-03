@@ -68,10 +68,10 @@
                                     {{-- delete --}}
                                     @if(auth()->user()->hasPermission('delete_clients'))
                                     <div class="inline">
-                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
+                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm-{{$client->id}}", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
                                             <i class="fa fa-trash"></i>
                                         </a>
-                                        <form class="hidden" id="deleteForm" action="{{ route('dashboard.clients.destroy', $client->id) }}" method="post">
+                                        <form class="hidden" id="deleteForm-{{$client->id}}" action="{{ route('dashboard.clients.destroy', $client->id) }}" method="post">
                                             @csrf
                                             @method('delete')
                                         </form>

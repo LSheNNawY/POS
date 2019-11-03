@@ -88,10 +88,10 @@
                                     {{-- delete --}}
                                     @if(auth()->user()->hasPermission('delete_products'))
                                     <div class="inline">
-                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
+                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm-{{$product->id}}", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
                                             <i class="fa fa-trash"></i>
                                         </a>
-                                        <form class="hidden" id="deleteForm" action="{{ route('dashboard.products.destroy', $product->id) }}" method="post">
+                                        <form class="hidden" id="deleteForm-{{$product->id}}" action="{{ route('dashboard.products.destroy', $product->id) }}" method="post">
                                             @csrf
                                             @method('delete')
                                         </form>

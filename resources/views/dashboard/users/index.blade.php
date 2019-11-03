@@ -69,10 +69,10 @@
                                     {{-- delete --}}
                                     @if(auth()->user()->hasPermission('delete_users'))
                                     <div class="inline">
-                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
+                                        <a  class="btn btn-sm btn-danger" title="@lang('site.delete')" onclick='confirmDelete("deleteForm-{{$user->id}}", "@lang('site.delete_confirm_msg')", "@lang('site.delete')", "@lang('site.cancel')")'>
                                             <i class="fa fa-trash"></i>
                                         </a>
-                                        <form class="hidden" id="deleteForm" action="{{ route('dashboard.users.destroy', $user->id) }}" method="post">
+                                        <form class="hidden" id="deleteForm-{{$user->id}}" action="{{ route('dashboard.users.destroy', $user->id) }}" method="post">
                                             @csrf
                                             @method('delete')
                                         </form>
