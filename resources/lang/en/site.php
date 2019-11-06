@@ -61,6 +61,7 @@ return [
 
     'orders'                    => 'Orders',
     'make_order'                => 'New order',
+    'edit_order'                => 'Edit order',
     'total'                     => 'Total',
     'add_order'                 => 'Add order',
     'total_price'               => 'Total price',

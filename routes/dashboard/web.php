@@ -42,12 +42,15 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
                 // using {client} parameter not {id} to use Client $client object in controller method
             Route::get('{client}/order/create', 'OrdersController@create')->name('order.create');
             Route::post('{client}/order', 'OrdersController@store')->name('order.store');
+            Route::put('{client}/order/{order}', 'OrdersController@update')->name('order.update');
         });
 
         // orders
         Route::prefix('orders')->name('orders.')->group(function () {
             Route::get('/', 'OrdersController@index')->name('index');
             Route::get('/{order}', 'OrdersController@show')->name('show');
+            Route::get('{order}/edit', 'OrdersController@edit')->name('edit');
+
             Route::delete('/{order}', 'OrdersController@destroy')->name('destroy');
         });
 

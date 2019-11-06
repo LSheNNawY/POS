@@ -61,6 +61,7 @@ return [
 
     'orders'                    => 'الطلبات',
     'make_order'                => 'طلب جديد',
+    'edit_order'                => 'تعديل طلب',
     'total'                     => 'المجموع',
     'add_order'                 => 'اضافة طلب',
     'total_price'               => 'السعر الكلي',

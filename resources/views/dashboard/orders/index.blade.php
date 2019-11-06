@@ -65,7 +65,7 @@
 												@endif
 
 												@if(auth()->user()->hasPermission('update_orders'))
-												<a href="#" class="label label-warning margin-r-5">
+												<a href="{{route('dashboard.orders.edit', $order)}}" class="label label-warning margin-r-5">
 													<i class="fa fa-pencil"></i> @lang('site.update')
 												</a>
 												@endif

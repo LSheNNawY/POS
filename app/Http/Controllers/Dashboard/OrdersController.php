@@ -57,34 +57,8 @@ class OrdersController extends Controller
      */
     public function store(Request $request, Client $client)
     {
-        $products = $request->products;
-        $total_price = 0;
-
-        // creating new order
-        $order = $client->orders()->create([]);
-
-        // adding order products (using attach for many to many relationship)
-        $order->products()->attach($request->products);
-
-
-        // looping over products
-        foreach ($products as $product_id => $quantity_array)
-        {
-            $product_quantity = $quantity_array['quantity'];
-
-            // getting each product sale price
-            $product = Product::findOrFail($product_id);
-            $product_salae_price = $product->sale_price;
-
-            // calculating total price for each product then adding to order total price
-            $total_price += ($product_salae_price * $product_quantity);
-
-            // updating each product stock
-            $product->update(['stock' => ($product->stock - $product_quantity)]);
-        }
-
-        // updating order to add total price
-        $order->update(['total_price'=> $total_price]);
+        // adding new order function
+        $this->attachOrder($request, $client);
 
         return redirect()->route('dashboard.orders.index')->with([
             'alertMessage'  => __('site.success_adding'),
@@ -123,7 +97,18 @@ class OrdersController extends Controller
      */
     public function edit(Order $order)
     {
-        //
+        $title = __('site.edit_order');
+
+        $categories = Category::with('products')->get();
+
+        $products_ids = [];
+
+        foreach ($order->products as $product) {
+
+            $products_ids[] = $product->id;
+        }
+
+        return view('dashboard.orders.edit', compact('title', 'order', 'categories', 'products_ids'));
     }
 
     /**
@@ -133,9 +118,19 @@ class OrdersController extends Controller
      * @param  \App\Order  $order
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Order $order)
+    public function update(Request $request, Client $client, Order $order)
     {
-        //
+        // removing old order first
+        $this->detachOrder($order);
+        // adding new order with new data
+        $this->attachOrder($request, $client);
+
+         return redirect()->route('dashboard.orders.index')->with([
+            'alertMessage'  => __('site.success_updating'),
+            'alertType'     => 'success'
+        ]);
+
+
     }
 
     /**
@@ -146,11 +141,10 @@ class OrdersController extends Controller
      */
     public function destroy(Order $order)
     {
+        // detaching order function
+        $deleted = $this->detachOrder($order);
 
-        // deleting
-        $deleted = $order->delete();
-
-        // check if deleted
+         // check if deleted
         if ($deleted)
             return redirect(route('dashboard.orders.index'))->with([
                 'alertMessage'  => __('site.success_deleting'),
@@ -161,5 +155,58 @@ class OrdersController extends Controller
             'alertMessage'  => 'site.error_adding',
             'alertType'     => 'error'
         ]);
+    }
+
+
+    /**
+     * [attachOrder description]
+     * @param  Request $request 
+     * @param  Client  $client  
+     * @return [type]           
+     */
+    private function attachOrder($request, $client) {
+
+        $products = $request->products;
+        $total_price = 0;
+
+        // creating new order
+        $order = $client->orders()->create([]);
+
+        // adding order products (using attach for many to many relationship)
+        $order->products()->attach($request->products);
+
+
+        // looping over products
+        foreach ($products as $product_id => $quantity_array)
+        {
+            $product_quantity = $quantity_array['quantity'];
+
+            // getting each product sale price
+            $product = Product::findOrFail($product_id);
+            $product_salae_price = $product->sale_price;
+
+            // calculating total price for each product then adding to order total price
+            $total_price += ($product_salae_price * $product_quantity);
+
+            // updating each product stock
+            $product->update(['stock' => ($product->stock - $product_quantity)]);
+        }
+
+        // updating order to add total price
+        $order->update(['total_price'=> $total_price]);
+    }
+
+
+    /**
+     * [detachOrder ]
+     * @param  [type] $order 
+     * @return [type]        
+     */
+    private function detachOrder($order) {
+        
+        // deleting
+        $deleted = $order->delete();
+
+        return $deleted;
     }
 }
