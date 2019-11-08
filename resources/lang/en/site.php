@@ -64,6 +64,7 @@ return [
     'edit_order'                => 'Edit order',
     'total'                     => 'Total',
     'add_order'                 => 'Add order',
+    'update_order'              => 'Update order',
     'total_price'               => 'Total price',
     'creation_date'             => 'Date',
     'order_status'              => 'Status',

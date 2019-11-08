@@ -64,6 +64,7 @@ return [
     'edit_order'                => 'تعديل طلب',
     'total'                     => 'المجموع',
     'add_order'                 => 'اضافة طلب',
+    'update_order'              => 'تعديل الطلب',
     'total_price'               => 'السعر الكلي',
     'creation_date'             => 'التاريخ',
     'order_status'              => 'حالة الطلب',

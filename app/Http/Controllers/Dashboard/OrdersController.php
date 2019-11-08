@@ -120,6 +120,9 @@ class OrdersController extends Controller
      */
     public function update(Request $request, Client $client, Order $order)
     {
+        $products = $order->products;
+
+        dd ($products[0]->pivot->quantity);
         // removing old order first
         $this->detachOrder($order);
         // adding new order with new data
@@ -141,7 +144,6 @@ class OrdersController extends Controller
      */
     public function destroy(Order $order)
     {
-        // detaching order function
         $deleted = $this->detachOrder($order);
 
          // check if deleted
@@ -204,9 +206,19 @@ class OrdersController extends Controller
      */
     private function detachOrder($order) {
         
-        // deleting
+       $order_products = $order->products;
+
         $deleted = $order->delete();
 
+        if ($deleted) {
+            foreach ($order_products as $order_product) {
+                $product = Product::find($order_product->id);
+                $product_stock = $product->stock;
+                $product->update([
+                    'stock' => ($product_stock + $order_product->pivot->quantity)
+                ]);
+            }
+        }
         return $deleted;
     }
 }

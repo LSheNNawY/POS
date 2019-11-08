@@ -86,12 +86,8 @@
 
                     <div class="box-body">
 
-
-
-                {{-- order details --}}
-
-
-                        <!-- add new order form -->
+                        {{-- order details --}}
+                        <!-- edit order form -->
                         <form action="{{route('dashboard.clients.order.update', [$order->client_id, $order->id])}}" method="post">
                             @csrf
                             @method('put')
@@ -99,8 +95,6 @@
                                 <table class="table table-hover">
                                     <tbody id="product_table" class="order-list">
                                         @foreach($order->products as $product)
-                                        
-                                        
                                         <tr>
                                             <td>{{ $product->name }}</td>
                                             <td>
@@ -123,8 +117,8 @@
                                 <h4>@lang('site.total') : <span id="total_price">{{ $order->total_price }}</span></h4>
                                 <br>
                                 <button type="submit" class="form-control btn btn-primary disabled" id="add-order-btn">
-                                    <i class="fa fa-plus"></i>&nbsp;
-                                    <strong>@lang('site.add_order')</strong>
+                                    <i class="fa fa-edit"></i>&nbsp;
+                                    <strong>@lang('site.update_order')</strong>
                                 </button>
                             </div>
                         </form>
