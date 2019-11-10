@@ -26,6 +26,7 @@ return [
     'create'                    => 'Create',
     'read'                      => 'Read',
     'cancel'                    => 'Cancel',
+    'print'                     => 'Print',
 
     'success_adding'            => 'Successful adding',
     'success_updating'          => 'Successful editing',

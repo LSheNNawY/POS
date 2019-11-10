@@ -26,6 +26,7 @@ return [
     'read'                      => 'قراءة',
     'delete'                    =>  'حذف',
     'cancel'                    => 'الغاء',
+    'print'                     => 'طباعة',
 
     'success_adding'            => 'تمت الاضافة بنجاح',
     'success_updating'          => 'تم التعديل بنجاح',

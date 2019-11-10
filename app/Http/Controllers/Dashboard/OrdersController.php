@@ -102,9 +102,8 @@ class OrdersController extends Controller
         $categories = Category::with('products')->get();
 
         $products_ids = [];
-
+        // get products ids in an array
         foreach ($order->products as $product) {
-
             $products_ids[] = $product->id;
         }
 
@@ -120,9 +119,6 @@ class OrdersController extends Controller
      */
     public function update(Request $request, Client $client, Order $order)
     {
-        $products = $order->products;
-
-        dd ($products[0]->pivot->quantity);
         // removing old order first
         $this->detachOrder($order);
         // adding new order with new data
@@ -206,7 +202,7 @@ class OrdersController extends Controller
      */
     private function detachOrder($order) {
         
-       $order_products = $order->products;
+        $order_products = $order->products;
 
         $deleted = $order->delete();
 

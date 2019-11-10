@@ -1,6 +1,6 @@
 
                 {{-- order details --}}
-                <div class="form-group">
+                <div class="form-group" id="print-area">
                     <table class="table table-hover">
                         <tbody id="product_table" class="order-list">
                             <tr>
@@ -23,3 +23,4 @@
                     <h4>@lang('site.total') : <span id="total_price">{{  number_format($order->total_price, 2)}}</span></h4>
                     <br>
                 </div>
+                <button class="form-control btn btn-primary" id="print-btn">@lang('site.print') <i class="fa fa-print"></i> </button>

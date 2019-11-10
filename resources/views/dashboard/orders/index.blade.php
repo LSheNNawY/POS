@@ -118,4 +118,5 @@
 	<script src="{{ asset('AdminLTE/dist/js/custom.js') }}"></script>
 	<script src="{{ asset('AdminLTE/dist/js/jquery.number.min.js') }}"></script>
 	<script src="{{ asset('AdminLTE/dist/js/order.js') }}"></script>
+	<script src="{{ asset('AdminLTE/dist/js/printThis.js') }}"></script>
 @endpush

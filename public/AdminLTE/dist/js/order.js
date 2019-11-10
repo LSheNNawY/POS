@@ -123,11 +123,9 @@ $(document).ready(function () {
     });
 
 
-    //print order
-    // $(document).on('click', '.print-btn', function() {
-    //
-    //     $('#print-area').printThis();
-    //
-    // });//end of click function
+    // print order
+    $(document).on('click', '#print-btn', function() {
+        $('#print-area').printThis();
+    });
 
-});//end of document ready
+});
