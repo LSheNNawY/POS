@@ -72,6 +72,7 @@ return [
     'order_processing'          => 'قيد التحضير',
     'order'                     => 'الطلب',
     'quantity'                  => 'الكمية',
+    'out_of_stock'              => 'غير متوفر حاليا',
 
     'loading'                   => 'تحميل ....',
 

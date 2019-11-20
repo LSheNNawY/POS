@@ -79,7 +79,7 @@
                             {{-- stock--}}
                             <div class="form-group">
                                 <label for="stock">@lang('site.stock')</label>
-                                <input type="number" class="form-control" id="stock" name="stock" placeholder="@lang('site.stock')" value="{{ $product->stock }}" min="1" required>
+                                <input type="number" class="form-control" id="stock" name="stock" placeholder="@lang('site.stock')" value="{{ $product->stock }}" min="0" required>
                             </div>
 
                             {{-- user id --}}

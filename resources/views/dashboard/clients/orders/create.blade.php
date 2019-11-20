@@ -44,6 +44,7 @@
                                                     <th>@lang('site.add')</th>
                                                 </tr>
                                                 @foreach($category->products as $product)
+                                                    @if($product->stock > 0)
                                                     <tr>
                                                         <td>{{ $product->name }}</td>
                                                         <td>{{ $product->stock }}</td>
@@ -54,11 +55,17 @@
                                                              class="btn btn-success add-product-btn"
                                                              data-id="{{$product->id}}"
                                                              data-name="{{$product->name}}"
-                                                             data-price="{{$product->sale_price}}">
+                                                             data-price="{{$product->sale_price}}"
+                                                             data-stock="{{$product->stock}}"
+                                                             >
                                                                 <i class="fa fa-plus"></i>
                                                             </a>
                                                         </td>
                                                     </tr>
+                                                    @else
+                                                        <td>{{ $product->name }}</td>
+                                                        <td class="text-danger text-bold text-center" colspan="3">@lang('site.out_of_stock')</td>
+                                                    @endif
                                                 @endforeach
                                             </tbody>
 

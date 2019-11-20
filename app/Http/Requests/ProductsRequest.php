@@ -25,13 +25,24 @@ class ProductsRequest extends FormRequest
     public function rules()
     {
 
-        $rules = [
-            'category_id'       => 'numeric',
-            'purchase_price'    => 'required|between:1,999999.99',
-            'sale_price'        => 'required|between:1,999999.99',
-            'stock'             => 'required|integer|min:1',
-            'image'             => 'nullable|image|mimes:png,jpeg,bmp',
-        ];
+        if ($this->id) {
+            $rules = [
+                'category_id'       => 'numeric',
+                'purchase_price'    => 'required|between:1,999999.99',
+                'sale_price'        => 'required|between:1,999999.99',
+                'stock'             => 'required|integer|min:0',
+                'image'             => 'nullable|image|mimes:png,jpeg,bmp',
+            ];
+        } else {
+            $rules = [
+                'category_id'       => 'numeric',
+                'purchase_price'    => 'required|between:1,999999.99',
+                'sale_price'        => 'required|between:1,999999.99',
+                'stock'             => 'required|integer|min:1',
+                'image'             => 'nullable|image|mimes:png,jpeg,bmp',
+            ];
+        }
+ 
 
 
         foreach (config('translatable.locales') as $locale)

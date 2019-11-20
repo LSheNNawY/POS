@@ -101,7 +101,9 @@
                                                 <input type="number"
                                                        name="products[{{ $product->id }}][quantity]"
                                                        data-price="{{ $product->sale_price }}"
-                                                       class="form-control input-sm product-quantity" min="1" value="{{ $product->pivot->quantity }}">
+                                                       class="form-control input-sm product-quantity" min="1" value="{{ $product->pivot->quantity }}"
+                                                       max="{{ $product->pivot->quantity + $product->stock }}" 
+                                                       >
                                             </td>
                                             <td class="product-price">{{ number_format($product->sale_price * $product->pivot->quantity)}}</td>               
                                             <td>

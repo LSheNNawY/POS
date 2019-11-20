@@ -72,6 +72,7 @@ return [
     'order_processing'          => 'Processing',
     'order'                     => 'Order',
     'quantity'                  => 'Quantity',
+    'out_of_stock'              => 'Out of stock',
 
     'loading'                   => 'Loading...',
 

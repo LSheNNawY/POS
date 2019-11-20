@@ -7,6 +7,7 @@ $(document).ready(function () {
         e.preventDefault();
         var name = $(this).data('name');
         var id = $(this).data('id');
+        var stock = $(this).data('stock');
         // using $.number plugin to add comma to price i.e (3200.00  => 3,200.00)
         var price = $.number($(this).data('price'), 2);
 
@@ -19,7 +20,7 @@ $(document).ready(function () {
                     <input type="number"
                            name="products[${id}][quantity]"
                            data-price="${price}"
-                           class="form-control input-sm product-quantity" min="1" value="1">
+                           class="form-control input-sm product-quantity" min="1" value="1" max="${stock}">
                 </td>
                 <td class="product-price">${price}</td>               
                 <td>
