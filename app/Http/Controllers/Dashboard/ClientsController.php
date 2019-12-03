@@ -46,11 +46,8 @@ class ClientsController extends Controller
     // store
     public function store(ClientsRequest $request)
     {
-        $validated = $request->except(['phone']);
-
-        $validated['phone'] = array_filter($request->phone);
-
-        $client = Client::create($validated);
+        // dd ($request->rules());
+        $client = Client::create($request->all());
 
         // checking
         if ($client) {
@@ -84,14 +81,11 @@ class ClientsController extends Controller
     // update
     public function update(ClientsRequest $request, $id)
     {
-        $validated = $request->except(['phone']);
-
-        $validated['phone'] = array_filter($request->phone);
 
         $client = Client::find($id);
 
         // saving
-        $updated = $client->update($validated);
+        $updated = $client->update($request->all());
 
         // checking
         if ($updated) {

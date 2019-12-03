@@ -12,10 +12,6 @@ class Client extends Model
 
     protected $guarded = [];
 
-    protected $casts = [
-        'phone' => 'array'
-    ];
-
     /**
      * client order relationship
      * @return \Illuminate\Database\Eloquent\Relations\HasMany

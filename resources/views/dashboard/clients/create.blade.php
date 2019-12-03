@@ -42,10 +42,8 @@
 
                     {{-- phone numbers --}}
                     <div class="form-group">
-                    @for($i = 0; $i < 2; $i++)
-                        <label for="phone_{{$i}}">@lang('site.phone') {{ $i + 1 }}</label>
-                        <input type="text" name="phone[]" id="phone_{{$i}}" class="form-control" placeholder="ex: 01234567891">
-                    @endfor
+                        <label for="phone">@lang('site.phone')</label>
+                        <input type="text" name="phone" id="phone" class="form-control" placeholder="ex: 01234567891">
                     </div>
 
                 </div><!-- /.box-body -->

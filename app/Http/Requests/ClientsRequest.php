@@ -24,8 +24,7 @@ class ClientsRequest extends FormRequest
     public function rules()
     {
         $rules = [
-            'phone.0'   => 'required|different:phone.1|regex:/(01)[0-9]{9}/|unique:clients,phone',
-            'phone.1'   => 'nullable|regex:/(01)[0-9]{9}/|unique:clients,phone',
+            'phone'   => 'required|unique:clients|regex:/(01)[0-9]{9}/'
         ];
 
         foreach(config('translatable.locales') as $locale)
