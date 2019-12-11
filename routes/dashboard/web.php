@@ -5,9 +5,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
   function() {
 
     Route::prefix('dashboard')->name('dashboard.')->middleware('auth')->group(function () {
-        Route::get('', function () {
-            return view('dashboard.index');
-        })->name('index');
+        Route::get('', 'HomeController@index')->name('index');
 
         // categories routes
         Route::prefix('categories')->name('categories.')->group(function () {

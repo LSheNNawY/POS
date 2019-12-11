@@ -7,6 +7,7 @@ return [
     'main_navigation'           => 'الموجة الرئيسى',
     'search'                    => 'بحث',
     'online'                    => 'متصل',
+    'more_info'                 => 'للمزيد..',
 
     'users'                     => 'المشرفين',
     'name'                      => 'الإسم',

@@ -7,6 +7,7 @@ return [
     'main_navigation'           => 'Main navigation',
     'search'                    => 'Search',
     'online'                    => 'Online',
+    'more_info'                 => 'More info..',
 
     'users'                     => 'Admins',
     'name'                      => 'Name',

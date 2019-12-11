@@ -40,7 +40,7 @@
                     </div>
                     @endforeach
 
-                    {{-- phone numbers --}}
+                    {{-- phone number --}}
                     <div class="form-group">
                         <label for="phone">@lang('site.phone')</label>
                         <input type="text" name="phone" id="phone" class="form-control" placeholder="ex: 01234567891">

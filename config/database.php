@@ -59,6 +59,17 @@ return [
             'options' => extension_loaded('pdo_mysql') ? array_filter([
                 PDO::MYSQL_ATTR_SSL_CA => env('MYSQL_ATTR_SSL_CA'),
             ]) : [],
+            // FOR MYSQL
+            // adding modes array for fixing raw grouping issues as 'strict' is 'true'
+           'modes' => [
+                //'ONLY_FULL_GROUP_BY', // Disable this to allow grouping by one column
+                'STRICT_TRANS_TABLES',
+                'NO_ZERO_IN_DATE',
+                'NO_ZERO_DATE',
+                'ERROR_FOR_DIVISION_BY_ZERO',
+                'NO_AUTO_CREATE_USER',
+                'NO_ENGINE_SUBSTITUTION'
+            ],
         ],
 
         'pgsql' => [

@@ -42,12 +42,10 @@
                         </div>
                     @endforeach
 
-                    {{-- phone --}}
+                    {{-- phone number --}}
                     <div class="form-group">
-                    @for($i = 0; $i < 2; $i++)
-                        <label for="phone_{{$i}}">@lang('site.phone') {{ $i + 1 }}</label>
-                        <input type="text" id="phone_{{$i}}" class="form-control" value="{{ $client->phone[$i]?? '' }}" name="phone[]" placeholder="ex: 01234567891">
-                    @endfor
+                        <label for="phone">@lang('site.phone')</label>
+                        <input type="text" name="phone" id="phone" class="form-control"  value="{{ $client->phone?? '' }}" placeholder="ex: 01234567891">
                     </div>
 
                     {{-- client id --}}

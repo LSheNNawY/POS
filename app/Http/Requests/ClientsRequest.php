@@ -23,9 +23,18 @@ class ClientsRequest extends FormRequest
      */
     public function rules()
     {
-        $rules = [
-            'phone'   => 'required|unique:clients|regex:/(01)[0-9]{9}/'
-        ];
+        // updating
+        if ($this->id) {
+            $rules = [
+                'phone'   => 'required|regex:/(01)[0-9]{9}/|unique:clients,phone,' . $this->id
+            ];
+        }
+        // creating 
+        else {
+            $rules = [
+                'phone'   => 'required|unique:clients|regex:/(01)[0-9]{9}/'
+            ];
+        }
 
         foreach(config('translatable.locales') as $locale)
         {
