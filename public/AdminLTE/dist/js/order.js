@@ -1,5 +1,12 @@
 $(document).ready(function () {
 
+    // Avoiding CSRF_TOKEN error in ajax request
+    $.ajaxSetup({
+        headers: {
+          'X-CSRF-Token': $('meta[name="_token"]').attr('content')
+        }
+    });
+
     var body = $('body');
     //add product btn
     $('.add-product-btn').on('click', function (e) {
@@ -123,6 +130,24 @@ $(document).ready(function () {
         });
     });
 
+    /**
+     * Change order status function
+     * @param  
+     * @param  
+     * @return
+     */
+    $('.order_status').on('change', function(e) {
+        var url = $(this).closest('form').attr('action');
+        var status = $(this).val();
+
+        $.ajax({
+            url:        url,
+            method:     'PUT',
+            data: {
+                status: status
+            }
+        })
+    });
 
     // print order
     $(document).on('click', '#print-btn', function() {

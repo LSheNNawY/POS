@@ -70,6 +70,8 @@ return [
     'total_price'               => 'السعر الكلي',
     'creation_date'             => 'التاريخ',
     'order_status'              => 'حالة الطلب',
+    'order_status_processing'   => 'قيد التحضير',
+    'order_status_ready'        => 'تم تجهيزه',
     'order_processing'          => 'قيد التحضير',
     'order'                     => 'الطلب',
     'quantity'                  => 'الكمية',

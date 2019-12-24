@@ -128,8 +128,25 @@ class OrdersController extends Controller
             'alertMessage'  => __('site.success_updating'),
             'alertType'     => 'success'
         ]);
+    }
 
+    /**
+     * change order status function
+     * @param  Request $request 
+     * @param  [type]  $id     
+     * @return [type]           
+     */
+    public function changeOrderStatus(Request $request, $id) {
+       if ($request->ajax()) {
+            $order = Order::find($id);
 
+            $updated = $order->update([
+                'status' => $request->status
+            ]);
+
+            if (! $updated)
+                return response('error', 500);
+       }       
     }
 
     /**

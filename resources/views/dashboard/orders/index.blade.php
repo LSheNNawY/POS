@@ -47,11 +47,30 @@
 											{{--<th>@lang('site.add')</th>--}}
 										</tr>
 										@foreach($orders as $index=>$order)
+
 										<tr>
 											<td>{{ $index + 1 }}</td>
 											<td>{{ $order->client->name }}</td>
 											<td>{{ number_format($order->total_price, 2) }}</td>
-											<td {{--class="label label-{{ ($title == 0)? 'warning':'success' }}--}}">@lang('site.order_status')</td>
+
+											@php
+												$order_status = ($order->status == 0);
+											@endphp
+											<td>
+
+												<form id="statusForm" action="{{ route('dashboard.orders.status', $order->id) }}">
+													@csrf
+													@method('put')
+													<select class="form-control order_status" name="status" style="padding: 0">
+														<option {{ $order_status? 'selected' : '' }} value="0">				@lang('site.order_status_processing')
+														</option>
+														<option {{ $order_status? '' : 'selected' }} value="1">				@lang('site.order_status_ready')
+														</option>
+													</select>
+													<input type="hidden" name="id" value="{{ $order->id }}">
+												</form>
+	
+											</td>
 											<td>{{ date_format($order->created_at, 'Y-m-d')}}</td>
 											<td>
 												@if(auth()->user()->hasPermission('read_orders'))

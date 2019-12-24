@@ -40,7 +40,7 @@ return [
     'login'                     => 'Login',
     'register'                  => 'Register',
     'forgot_password'           => 'Forgot your password?',
-    'remember_me'               => 'ٌRemember Me',
+    'remember_me'               => 'Remember Me',
     'sign_to_start'             => 'Sign in to start your session',
 
     'categories'                => 'Categories',
@@ -70,6 +70,8 @@ return [
     'total_price'               => 'Total price',
     'creation_date'             => 'Date',
     'order_status'              => 'Status',
+    'order_status_processing'   => 'In preparation',
+    'order_status_ready'        => 'Ready',
     'order_processing'          => 'Processing',
     'order'                     => 'Order',
     'quantity'                  => 'Quantity',

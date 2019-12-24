@@ -48,6 +48,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
             Route::get('/', 'OrdersController@index')->name('index');
             Route::get('/{order}', 'OrdersController@show')->name('show');
             Route::get('{order}/edit', 'OrdersController@edit')->name('edit');
+            Route::put('{id}', 'OrdersController@changeOrderStatus')->name('status');
 
             Route::delete('/{order}', 'OrdersController@destroy')->name('destroy');
         });
