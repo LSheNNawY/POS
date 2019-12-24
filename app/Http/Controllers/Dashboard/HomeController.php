@@ -20,7 +20,7 @@ class HomeController extends Controller
     	 $products = Product::all();
     	 $orders = Order::all();
 
-/*    	
+    	
 		//FOR MYSQL 
 		// for chart
     	 $sales = Order::select(
@@ -28,16 +28,17 @@ class HomeController extends Controller
     	 	DB::raw('MONTH(`created_at`) as month'),
     	 	DB::raw('SUM(`total_price`) as total_price'),
     	 )->groupBy('month')->get(); 
-*/
+
     	 /**
     	  * FOR SQLITE
     	  * for chart
-    	  */
+    	  
     	 $sales = Order::select(
     	 	DB::raw("strftime('%Y',created_at) as year"),
     	 	DB::raw("strftime('%m',created_at) as month"),
     	 	DB::raw('SUM(`total_price`) as total_price'),
     	 )->groupBy('month')->get();
+         */
 
 
     	 return view('dashboard.index', compact('title', 'clients', 'categories', 'products','orders', 'sales'));
