@@ -16,7 +16,7 @@
         "laravel/tinker": "^1.0",
         "mcamara/laravel-localization": "^1.3",
         "santigarcor/laratrust": "5.0.*",
-        "ext-gd": "*",
+        "gd": "*",
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
