@@ -1,4 +1,5 @@
 <?php
+Route::get('', 'HomeController@index')->name('index');
 
 Route::group(['prefix' => LaravelLocalization::setLocale(),
  'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]],
@@ -7,7 +8,6 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
     Route::get('/', 'HomeController@index')->name('home');
 
     Route::prefix('dashboard')->name('dashboard.')->middleware('auth')->group(function () {
-        Route::get('', 'HomeController@index')->name('index');
 
         // categories routes
         Route::prefix('categories')->name('categories.')->group(function () {
