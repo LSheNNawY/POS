@@ -12,7 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('dashboard.login');
+	$title = __('site.login');
+
+    return view('dashboard.login', compact('title'));
 });
 
 
