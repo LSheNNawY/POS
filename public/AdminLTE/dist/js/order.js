@@ -72,7 +72,7 @@ $(document).ready(function () {
     body.on('keyup change', '.product-quantity', function() {
 
         var quantity = Number($(this).val()); // convert string to number
-        var unitPrice = parseFloat($(this).data('price').replace(/,/g, '')); // remove comma & parse to float
+        var unitPrice = parseFloat($(this).data('price').toString().replace(/,/g, '')); // remove comma & parse to float
 
         $(this).closest('tr').find('.product-price').html($.number((quantity * unitPrice), 2));
 
