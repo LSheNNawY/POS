@@ -11,13 +11,6 @@
 |
 */
 
-Route::get('/', function () {
-	$title = __('site.login');
-
-    return view('dashboard.login', compact('title'));
-});
-
-
 Auth::routes(['register' => false]);
 
 Route::get('/home', 'HomeController@index')->name('home');
