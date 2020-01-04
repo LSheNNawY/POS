@@ -1,8 +1,8 @@
 <?php
-
 Route::group(['prefix' => LaravelLocalization::setLocale(),
  'middleware' => [ 'localeSessionRedirect', 'localizationRedirect', 'localeViewPath' ]],
   function() {
+    Route::get('/', 'HomeController@index')->middleware('auth')->name('home');
 
     Route::prefix('dashboard')->name('dashboard.')->middleware('auth')->group(function () {
         Route::get('', 'HomeController@index')->name('index');
