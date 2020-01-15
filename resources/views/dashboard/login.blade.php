@@ -52,7 +52,11 @@
   <!-- /.login-logo -->
   <div class="login-box-body">
     <p class="login-box-msg">@lang('site.sign_to_start')</p>
-
+    <div class="credentials">
+        <h5 class="text-danger">login credentials:</h5>
+        <p style="margin-left: 20px; margin-bottom: 5px">EMAIL: "superadmin@site.com"</p>
+        <p style="margin-left: 20px">PASSWORD: "123456"</p>
+    </div>
     <form action="{{ route('login') }}" method="POST">
       @csrf
       <!-- email -->
