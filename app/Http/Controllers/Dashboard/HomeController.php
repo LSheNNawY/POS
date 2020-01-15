@@ -23,16 +23,16 @@ class HomeController extends Controller
     	
 		//FOR MYSQL 
 		// for chart
-    	/* $sales = Order::select(
+    	 $sales = Order::select(
     	 	DB::raw('YEAR(`created_at`) as year'),
     	 	DB::raw('MONTH(`created_at`) as month'),
     	 	DB::raw('SUM(`total_price`) as total_price'),
     	 )->groupBy('month')->get(); 
-*/
+
     	 /**
     	  * FOR SQLITE
     	  * for chart
-    	  */
+    	  
     	 $sales = Order::select(
     	 	DB::raw("strftime('%Y',created_at) as year"),
     	 	DB::raw("strftime('%m',created_at) as month"),
