@@ -18,7 +18,7 @@ class ProductsTableSeeder extends Seeder
                 'purchase_price'    => rand(200, 1000),
                 'sale_price'        => rand(200, 1000),
                 'stock'             => rand(20, 70),
-                'image'             => 'product-' . $i . '-image.png',
+                'image'             => 'default-product.png',
 
                 'ar' => [
                     'name' => 'product' . $i . 'ar',
